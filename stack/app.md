@@ -45,7 +45,7 @@ typesafe url search params as state. filters, tabs, open panels, and selected it
 - **shipped in**: parc, tetravoice, fashion
 
 ### [fontsource](https://fontsource.org)
-self-hosted fonts, no google fonts request. four roles, no more:
+self-hosted fonts, no google fonts request. four roles, no more. ui and code are fixed defaults; reading and display are favorites that a project's brief may replace:
 
 | role | face | package |
 | --- | --- | --- |

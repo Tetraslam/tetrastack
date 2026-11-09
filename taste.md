@@ -4,25 +4,38 @@ references for calibration, not templates. don't overindex and don't underindex:
 
 the full collection, with images, lives at [tetraslam.world/taste](https://tetraslam.world/taste) ([markdown](https://tetraslam.world/taste.md)). entries below link to it.
 
-## house style
+## constants
 
-these are principles. every project derives its own palette, accent, and character from them, and never copies another project's values. parc is one worked example, shown after the principles.
+these hold in every project, whatever it looks like.
 
-- **surfaces are steps.** a few surface levels a few percent apart in lightness (sidebar, background, content, raised). never pure white or pure black.
-- **state is an ink overlay at a fixed strength.** hover and press are translucent ink over whatever surface they sit on, so they look the same everywhere and nest.
-- **one hue that means something.** everything is neutral except one accent, and that accent has a defined meaning in this product. choose the hue and the meaning per project. a second hue has to earn its place.
-- **named motion.** a standard ease and a morph curve for shape changes, at three or so durations. nothing bounces.
-- **hierarchy before decoration.** on every screen and every row, decide what the reader needs first. give that the weight, and let metadata recede (smaller, quieter, or shown on demand). no row should repeat a label that layout already implies.
-- **text set for reading.** a measure around 60 to 70ch. inter for ui, source serif 4 for anything editorial, commit mono only for code and numbers.
-- **one display voice.** shippori mincho b1 extrabold, huge and rare: titles, heroes, title-card moments. evangelion, not a newspaper.
-- **lowercase, warm copy.** interfaces talk like a person.
-- **identity fits the product.** a social app, a devtool, and a reading site should not share a palette. devtools are dense, calm, and legible.
+- **hierarchy before decoration.** on every screen and every row, decide what the reader needs first. give that the weight and let metadata recede (smaller, quieter, or on demand). no row repeats a label the layout already implies.
+- **every state is designed.** rest, hover, focus, active, loading, empty, error, and success.
+- **nothing shifts, nothing is lost.** no layout shift, and focus and scroll return to where they were. see [perf](perf.md).
+- **motion has a purpose.** each project names its own curves and durations and uses them consistently, and reduced motion is respected.
+- **identity fits the product.** a social app, a devtool, and a reading site should not share a look. devtools are dense, calm, and legible.
+- **copy talks like a person.** lowercase and warm, unless the direction calls for another voice.
+- **type**: inter for ui and commit mono for code and numbers by default. the reading and display faces are chosen in the brief. source serif 4 and shippori mincho b1 are favorites, not obligations.
 
-worked example, parc: warm paper surfaces (`#e3e2dd` < `#e9e8e3` < `#f3f2ee` < `#f8f7f4`), ember `#d5683f` meaning alive, arriving, or yours, `cubic-bezier(0.2, 0.8, 0.2, 1)` plus a morph curve at 140 / 220 / 380ms. these are parc's, not defaults.
+## directions
+
+the look is chosen per project, in a [brief](brief.md) written before any ui code. pick one direction, blend two on purpose, or invent a new one. the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
+
+- **warm paper** (parc): warm off-white surfaces stepped a few percent apart, hover as ink overlays, one accent (ember) that means alive or yours, and a dither field on surfaces that take input. fits places people live in daily: social, messaging, notes.
+- **live dither** (delve-onsite): dark, grainy, with a shader that breathes on the one surface that matters and reacts to every state. fits single-purpose tools with one hero interaction.
+- **illustrated serif** (tetraslam.world): serif typography, an illustration with a sense of place, considered light and dark. fits personal and editorial sites.
+- **title card** (evangelion): black and white, a heavy mincho set huge, stretched or squeezed, in broken stacked layouts, cut in hard. fits launches, story-driven pages, and moments that should feel like an event.
+- **kinetic menu** (persona 5): a palette of two or three colors at full contrast, angled shapes, cut-out lettering, and a transition with personality on every action, while staying readable. fits games, playful consumer apps, anything where navigating is the experience.
+- **lens** (kyoto animation): soft light, bloom, depth of field, focus pulls as transitions, pastel color, attention to tiny states. fits reflective, personal, and media products.
+- **painterly** (kuwahara, oil, ink reveal): paint and watercolor surfaces, often as an atmospheric backdrop behind a precise technical artifact, as on prime intellect's inference page. fits research, creative tools, and anything that should feel made by hand.
+- **hardware specimen** (oxide): the look of physical machines, with textured controls, cell grids, and technical clarity without hacker costume. fits infrastructure and serious devtools.
+- **raw text** (pierre): the content is the design. markdown, mono, a cursor. fits products for machines and agents.
+- **greco-futurism** (tnkr): sky, stone, open space, foundations. fits products that must earn trust.
+- **editorial grandeur** (palladium): seriousness, restraint, hope. fits long-form and ideas.
+- **native material** (ghostty): the product renders its own pitch in its own medium (ascii in a terminal, a live trace in a trace viewer). fits any product with a strong medium.
 
 ## the bar
 
-three elements from my own work that show how much detail is possible. hold anything new to this standard, then use the details below as a checklist. the bar is the level of care, not the look: don't copy these elements' colors or shapes into other products.
+three elements from my own work that show how much detail is possible. hold anything new to this standard, then use the details below as a checklist. the bar is the level of care, not the look: don't copy these elements' colors or shapes into other products. link to them for mechanisms (state machines, focus restore, render-on-change), not for style.
 
 ### the upload field · delve-onsite
 the drop zone is a live paper-shaders `Dithering` warp, not a static gradient. on hover or drag it brightens from dormant deep blue (`#0f1a24`) to forest green (`#1a4a3a`), speeds up from 0.2 to 0.6, and the shader layer scales to 1.05 over 700ms while the icon ring scales and tints over 500ms. the submit button fills with a wash from left to right on hover. every state of the surface has its own motion, and they all share one ease-out. [source](https://github.com/tetraslam/delve-onsite/blob/master/frontend/src/components/file-upload.tsx)
@@ -124,9 +137,9 @@ i love everything they make.
 - a great coding agent tui: sane defaults, with extensions that hot-reload so it can improve itself.
 - chats as a tree, which fits subtasks and subagents far better than a linear history.
 
-## art direction
+## art direction references
 
-painting styles carried onto the screen. study the technique, then use it as one element on a surface, not as the whole site.
+the sources behind several directions. painting styles carried onto the screen. study the technique, then use it as one element on a surface, not as the whole site.
 
 ### [on crafting painterly shaders](https://blog.maximeheckel.com/posts/on-crafting-painterly-shaders/) · [entry](https://tetraslam.world/taste/on-crafting-painterly-shaders)
 - maxime heckel builds paint, watercolor, and aquarelle looks in webgl from first principles, with a runnable sandbox at every step.
