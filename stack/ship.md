@@ -29,4 +29,5 @@ pnpm typecheck   # tsc --noEmit (next typegen first on next apps)
 pnpm test
 pnpm build
 pnpm audit --prod --audit-level high
+pnpm dlx react-doctor@latest --verbose   # react projects; review findings, record accepted exceptions
 ```
