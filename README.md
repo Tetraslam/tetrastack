@@ -41,7 +41,7 @@ each entry says what it is, when to reach for it, what to watch out for, and whe
 
 ## taste
 
-[taste.md](taste.md) holds the house style (stepped surfaces, ink-overlay states, one hue, named motion curves), the bar (three elements from my own work, described down to the edge cases), and the references that calibrate it: pierre, gwern, palladium, oxide, natural, osmosis, mintlify, tnkr, diffs, pi, and more. each one comes with notes on what to look at.
+[taste.md](taste.md) holds the house style (stepped surfaces, ink-overlay states, one hue, named motion curves), the bar (three elements from my own work, described down to the edge cases), and the references that calibrate it: pierre, gwern, nous, prime intellect, palladium, oxide, natural, osmosis, mintlify, tnkr, diffs, pi, and more. each one comes with notes on what to look at.
 
 ## effective perf
 

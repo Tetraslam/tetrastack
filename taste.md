@@ -66,6 +66,20 @@ press `n` anywhere:
 - an "agent mode" toggle in the page header, so the page itself practices what it measures.
 - live counters, tick-mark rules between sections, a dashed grid frame, and keycap hints (`S` share, `A` agent mode).
 
+### [nous research](https://nousresearch.com)
+a little overbearing taken whole, but a great reference.
+- condensed display type filling the full width, a hand-drawn anime mascot as the logo, and an electric-blue frame around the whole viewport.
+- the navigation is an agent: a ⌘k bar ("hermes: about nous") sits right under the logo.
+- a culture with merch people actually wear. the brand extends past the screen.
+
+### [prime intellect](https://www.primeintellect.ai/model-factory#hosted-training) · [inference](https://www.primeintellect.ai/inference#dedicated)
+the product pages, not the homepage.
+- product features are explained by small live diagrams of the real thing: a reward curve drawing itself next to its hyperparameters (`max_steps`, `batch_size`, `learning_rate`), an eval list, an observability crosshair labeled logs / traces / metrics / alerts.
+- diagrams sit inside frames with corner tick marks, like crop marks on a print.
+- a sticky section index on the left with an active bar, and numbered points (1.1, 1.2, ... 1.6) that keep counting across sections.
+- the inference page puts a full dashboard (endpoint status, a capacity bar, live-looking charts) on top of a blurred, grainy orange backdrop that looks like paint. a technical artifact on an atmospheric surface.
+- headlines that start bright and fade to gray mid-sentence (the same move as natural).
+
 ### [tnkr](https://www.tnkr.ai/) · [entry](https://tetraslam.world/taste/kh78ry65qecjc209pqps832jks827rty)
 - greco-futurism: an ionic pillar, blue sky, an open atmospheric feel. the imagery says trust and foundations.
 - a fast, clean screen recording of the real product, preloaded with a rich project.
