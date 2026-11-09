@@ -18,7 +18,7 @@ these hold in every project, whatever it looks like.
 
 ## directions
 
-the look is chosen per project, in a [brief](brief.md) written before any ui code. the brief weighs three directions that fit, at least one of them unexpected for this kind of product, and the agent picks one itself (or a deliberate blend, or a new one). the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
+the look is chosen per project, in a [brief](brief.md) written before any ui code. the agent picks whatever suits the product best: a direction from this list, a style that isn't listed, or a deliberate blend. the list is a starting range, not a menu. the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
 
 - **warm paper** (parc): warm off-white surfaces stepped a few percent apart, hover as ink overlays, one accent (ember) that means alive or yours, and a dither field on surfaces that take input. fits places people live in daily: social, messaging, notes.
 - **live dither** (delve-onsite): dark, grainy, with a shader that breathes on the one surface that matters and reacts to every state. fits single-purpose tools with one hero interaction.
