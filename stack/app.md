@@ -44,9 +44,20 @@ schemas at every trust boundary: forms, api routes, agent tool inputs, env.
 typesafe url search params as state. filters, tabs, open panels, and selected items belong in the url so they survive reloads and can be shared.
 - **shipped in**: parc, tetravoice, fashion
 
-### [fontsource](https://fontsource.org) variable fonts
-self-hosted fonts, no google fonts request. defaults are inter (ui), jetbrains mono (code, numbers), newsreader (editorial serif).
-- **shipped in**: parc, tetravoice
+### [fontsource](https://fontsource.org)
+self-hosted fonts, no google fonts request. four roles, no more:
+
+| role | face | package |
+| --- | --- | --- |
+| ui | inter | `@fontsource-variable/inter` |
+| reading | source serif 4 | `@fontsource-variable/source-serif-4` |
+| code, numbers | commit mono | `@fontsource/commit-mono` |
+| display | shippori mincho b1, extrabold | `@fontsource/shippori-mincho-b1` |
+
+- **reach for display when**: titles, heroes, empty states, title-card moments. it's the evangelion register (matisse eb's cousin, and it sets japanese too), so use it sparingly and big. never for body or ui.
+- **watch out**: shippori's latin and japanese subsets are separate files. load only the subsets the page uses.
+- **not this**: newsreader, jetbrains mono (retired). berkeley mono on the web: a separate, pricier license, and it has become the ai-startup signature.
+- **shipped in**: parc and tetravoice use the older set (inter, newsreader, jetbrains mono)
 
 ### [next-themes](https://github.com/pacocoursey/next-themes)
 light/dark switching without a flash. design both themes on purpose, not dark as an inverted afterthought.

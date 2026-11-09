@@ -15,6 +15,8 @@ used before and replaced. existing projects can keep these. new projects shouldn
 | eslint + prettier | biome | one fast tool |
 | prisma + postgres | convex | one backend for data, search, files, jobs, and realtime |
 | npm, yarn | pnpm | |
+| newsreader | source serif 4 | preferred the reading texture |
+| jetbrains mono | commit mono | quieter, and reads less like an editor screenshot |
 
 ## never
 

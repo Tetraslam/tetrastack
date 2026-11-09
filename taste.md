@@ -12,7 +12,8 @@ how this shows up in my own work. taken from parc's tokens:
 - **state is an ink overlay at a fixed strength.** hover and press are translucent ink layered over whatever surface they sit on, so they look the same everywhere and nest (a hover on a row, then a stronger one on a control inside it).
 - **one hue.** everything is neutral except a single accent (parc's ember, `#d5683f`) that means alive, arriving, or yours. a second hue has to earn its place.
 - **named motion.** a standard ease (`cubic-bezier(0.2, 0.8, 0.2, 1)`) plus a morph curve for shape changes. 140 / 220 / 380ms. nothing bounces.
-- **text set for reading.** a 62ch measure, a 680px main column, inter for ui, a serif (newsreader) for anything editorial, mono only for code and numbers.
+- **text set for reading.** a 62ch measure, a 680px main column, inter for ui, source serif 4 for anything editorial, commit mono only for code and numbers.
+- **one display voice.** shippori mincho b1 extrabold, huge and rare: titles, heroes, title-card moments. evangelion, not a newspaper.
 - **lowercase, warm copy.** interfaces talk like a person.
 
 ## the bar
