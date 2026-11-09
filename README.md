@@ -4,7 +4,7 @@
 
 **the libraries, references, and rejections behind everything i build for the web**
 
-[stack](#the-stack) · [taste](taste.md) · [rejected](rejected.md) · [skill](SKILL.md)
+[stack](#the-stack) · [taste](taste.md) · [perf](perf.md) · [rejected](rejected.md) · [skill](SKILL.md)
 
 </div>
 
@@ -41,7 +41,11 @@ each entry says what it is, when to reach for it, what to watch out for, and whe
 
 ## taste
 
-[taste.md](taste.md) holds the house style (stepped surfaces, ink-overlay states, one hue, named motion curves), the bar (three elements from my own work, described down to the edge cases), and the references that calibrate it: pierre, palladium, oxide, natural, osmosis, mintlify, tnkr, diffs, pi, and more. each one comes with notes on what to look at.
+[taste.md](taste.md) holds the house style (stepped surfaces, ink-overlay states, one hue, named motion curves), the bar (three elements from my own work, described down to the edge cases), and the references that calibrate it: pierre, gwern, palladium, oxide, natural, osmosis, mintlify, tnkr, diffs, pi, and more. each one comes with notes on what to look at.
+
+## effective perf
+
+[perf.md](perf.md): perf is what the user feels. prefetch everything one click away, server-render the real first paint, no skeletons on fast loads, nothing moves, writes are optimistic. agent interfaces make the wait legible instead. references: mcmaster-carr, nextfaster, linear's sync engine, deepseek r1.
 
 ## rejected
 

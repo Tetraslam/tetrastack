@@ -70,6 +70,14 @@ press `n` anywhere:
 - greco-futurism: an ionic pillar, blue sky, an open atmospheric feel. the imagery says trust and foundations.
 - a fast, clean screen recording of the real product, preloaded with a rich project.
 
+### [gwern.net](https://gwern.net) · [design notes](https://gwern.net/design)
+take the parts that serve "semantic zoom", gwern's term for reading at whatever depth you want without leaving the page:
+- recursive popups: hover a link to get an annotation, hover a link inside that, and so on. references open in place instead of sending you away.
+- epistemic metadata on every page (status, certainty, importance), so readers know how much weight to give it.
+- sidenotes instead of footnotes, collapsible sections, backlinks, and link icons that show where a link goes before you click.
+- a markdown version of every page, the same idea as tetraslam.world's `.md` routes.
+- leave the boxed nav and the density of controls.
+
 ### [camelot.wiki](https://camelot.wiki/citadel/camelot.wiki/about/something+about+the+stars) · [entry](https://tetraslam.world/taste/kh774ckyvjhydb0pv71j9nk5tn84352z)
 - dense, high-entropy content with mystique. read the subpages, not just the front page.
 
