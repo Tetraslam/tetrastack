@@ -89,6 +89,10 @@ i love everything they make.
 - extensibility and taste in how the structure is designed.
 - devtools should be designed like devtools, and products like products. sometimes it needs to be both.
 
+### [ghostty](https://ghostty.org)
+- the hero is an animated ascii ghost running inside a real terminal window, above one sentence and two buttons.
+- the product renders its own pitch. the animation is made of the same material as the product (characters in a terminal), so it can't look like generic marketing.
+
 ### [pi](https://pi.dev/) · [entry](https://tetraslam.world/taste/kh7ez3wvm2rzd3439b41z9vbv583bypk)
 - a great coding agent tui: sane defaults, with extensions that hot-reload so it can improve itself.
 - chats as a tree, which fits subtasks and subagents far better than a linear history.
