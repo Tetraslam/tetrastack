@@ -119,6 +119,32 @@ i love everything they make.
 - a great coding agent tui: sane defaults, with extensions that hot-reload so it can improve itself.
 - chats as a tree, which fits subtasks and subagents far better than a linear history.
 
+## art direction
+
+painting styles carried onto the screen. study the technique, then use it as one element on a surface, not as the whole site.
+
+### [on crafting painterly shaders](https://blog.maximeheckel.com/posts/on-crafting-painterly-shaders/) · [entry](https://tetraslam.world/taste/on-crafting-painterly-shaders)
+- maxime heckel builds paint, watercolor, and aquarelle looks in webgl from first principles, with a runnable sandbox at every step.
+- the kuwahara filter (and its anisotropic version) does most of the work: an edge-preserving blur that turns detail into brushy patches of color.
+- what makes it read as paint: no fine texture or normal detail, preserved edges, quantized color.
+
+### [oil paint brush](https://www.shadertoy.com/view/MtKcDG) · [entry](https://tetraslam.world/taste/oil-paint-brush)
+- flockaroo's shader repaints live video as oil, stroke by stroke. the strokes follow the image's structure instead of blurring it.
+- see also his notebook drawings and ballpoint sketch shaders.
+
+### ink reveal · [david whyte experience](https://davidwhyte.com/experience/)
+paint bleeding in to reveal an image. the effect is worth extracting from the site into a standalone, configurable component (see [motion](stack/motion.md#to-build)).
+
+### persona 5 (game ui)
+- red, black, and white only. lettering cut out like a ransom note, menus set at angles, jagged shapes, and a transition with personality on every action.
+- for all that chaos, text stays high-contrast and the current choice is always obvious. the bar for "stylish but readable".
+- the ui is the identity: menus, calling cards, and splash screens all speak the same language as the story.
+- [game ui database](https://www.gameuidatabase.com) for more.
+
+### evangelion title cards
+- matisse eb, an ultra-bold mincho serif, in white on black: set huge, stretched or squeezed to fill the frame, stacked in l-shaped and broken layouts, and cut in hard on the beat.
+- typography with timing. it's hideaki anno's signature and carries into his later work (shin godzilla, shin ultraman).
+
 ## libraries that are also taste
 
 these are in the stack too. what i notice about them:
