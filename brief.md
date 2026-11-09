@@ -1,6 +1,6 @@
 # design brief
 
-write this as `BRIEF.md` in the new project before any ui code. keep it to a page. if the user is around, show the three candidates and let them pick before writing the rest. if not, commit it and build from it. either way it's the contract for the look, so update it when the look changes.
+write this as `BRIEF.md` in the new project before any ui code. keep it to a page. the agent decides on its own: it weighs the candidates, picks, commits the brief, and builds from it without waiting for approval. the user reviews the result and can veto it later. it's the contract for the look, so update it when the look changes.
 
 ```md
 # brief
