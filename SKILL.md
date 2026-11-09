@@ -14,7 +14,7 @@ All paths below are relative to this file. If the skill isn't installed locally,
 1. Read `README.md` for the index. Load only the `stack/` layers the project needs. A CLI never needs `stack/motion.md`.
 2. Default to the listed picks. Before adding any dependency that isn't listed, check `rejected.md`. If you still add something unlisted, give a one-line reason in your reply.
 3. Respect `watch out` notes. They come from real incidents and advisories.
-4. For anything visual, read `taste.md`. Apply the house style unless the user asks for something different. Open the references relevant to the project (and screenshot them with a browser tool if you have one) to calibrate. Borrow the reasoning behind a reference, never its layout.
+4. For anything visual, read `taste.md`. Apply the house style unless the user asks for something different. Hold every interactive surface to "the bar": each state is designed, nothing shifts the layout, focus and scroll return to where they were, reduced motion is respected, and platform edge cases are handled. Open the references relevant to the project (and screenshot them with a browser tool if you have one) to calibrate. Borrow the reasoning behind a reference, never its layout.
 5. Check the current docs of each pick before writing code (Context7, or the docs inside `node_modules`). Versions move faster than this file.
 6. Record the stack you chose in the new project's README or AGENTS.md as a short `stack` section, so later sessions inherit the decisions.
 

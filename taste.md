@@ -15,6 +15,27 @@ how this shows up in my own work. taken from parc's tokens:
 - **text set for reading.** a 62ch measure, a 680px main column, inter for ui, a serif (newsreader) for anything editorial, mono only for code and numbers.
 - **lowercase, warm copy.** interfaces talk like a person.
 
+## the bar
+
+three elements from my own work that show how much detail is possible. hold anything new to this standard, then use the details below as a checklist.
+
+### the upload field · delve-onsite
+the drop zone is a live paper-shaders `Dithering` warp, not a static gradient. on hover or drag it brightens from dormant deep blue (`#0f1a24`) to forest green (`#1a4a3a`), speeds up from 0.2 to 0.6, and the shader layer scales to 1.05 over 700ms while the icon ring scales and tints over 500ms. the submit button fills with a wash from left to right on hover. every state of the surface has its own motion, and they all share one ease-out. [source](https://github.com/tetraslam/delve-onsite/blob/master/frontend/src/components/file-upload.tsx)
+
+### the field · parc
+the same idea grown into a material: an ordered-dither (8×8 bayer) fbm shader that appears only on surfaces that take something from you. it has five states (rest, compose, intent, receive, work), each with an energy level from 0 to 1. energy eases toward the current state's level with a 0.22s time constant, the color shifts from cold to warm with it, and a glow follows the cursor.
+- it runs on webgpu through vgpu, falls back to webgl2, and caps the pixel ratio at 2.
+- it renders only while energy is changing or the texture is moving, and pauses offscreen.
+- under reduced motion it snaps to the target and holds still.
+- dropping files anywhere on the page puts every receiving field into `receive`.
+
+### the composer · parc
+press `n` anywhere:
+- if the composer is on screen, it opens in place. if not, it remembers your scroll position and focused element, scrolls the composer to just under the top bar, and opens once scrolling ends (with a 700ms fallback). its field shows `intent` on the way there.
+- opening morphs the editor's min/max height on the morph curve (32px to 84px, capped at 45vh). nothing else on the page jumps.
+- `escape` closes it and takes you back where you were, focus included. clicking away closes it without scrolling. `⌘enter` posts, the composer closes, and the new post appears in place.
+- the edge cases are handled: reduced motion jumps instead of scrolling, a window blur (file chooser, other app) doesn't count as leaving, iOS safari's late blur on tapping "post" doesn't collapse the button before the click lands, and an open mention menu or gif picker gets escape and enter first.
+
 ## sites
 
 ### [palladium magazine](https://www.palladiummag.com/) · [entry](https://tetraslam.world/taste/kh784zm4w1r5m0914yn6h29839843ktv)
@@ -29,6 +50,17 @@ how this shows up in my own work. taken from parc's tokens:
 ### [osmosis](https://osmosis.ai/) · [entry](https://tetraslam.world/taste/kh74rntzcgaad0aqnrhy0rsbk5842jtw)
 - atmosphere that fits the product (rl hill-climbing): grain and paper texture over graphics, softly animated fog.
 - smooth abstract graphics that animate on scroll: manifolds, highlights that morph across text.
+
+### [natural](https://www.natural.com/)
+- a hero sentence that starts in ink and continues in light gray ("wallets. payments. cards..."), with a small grainy gradient tile morphing inline in the text.
+- the product screenshot sits in a frame of dithered grain, so it reads as an object, not a pasted image.
+- agents get soft gradient swatches as avatars, which gives each identity a color without illustrating anything.
+- lots of whitespace, near-black pill buttons, and a single typeface.
+
+### [mintlify agent score](https://www.mintlify.com/score)
+- a pixel display font with green as the only accent. mono and pixel type work here because they're the voice of the product (a score for agents), not an excuse to look technical.
+- an "agent mode" toggle in the page header, so the page itself practices what it measures.
+- live counters, tick-mark rules between sections, a dashed grid frame, and keycap hints (`S` share, `A` agent mode).
 
 ### [tnkr](https://www.tnkr.ai/) · [entry](https://tetraslam.world/taste/kh78ry65qecjc209pqps832jks827rty)
 - greco-futurism: an ionic pillar, blue sky, an open atmospheric feel. the imagery says trust and foundations.
