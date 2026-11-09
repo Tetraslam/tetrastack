@@ -1,24 +1,28 @@
 # taste
 
-references for calibration, not templates. don't overindex and don't underindex: work out *why* each one works, then build something that's yours. open the source and look at it (with screenshots if you're an agent) before borrowing from it.
+references for calibration, not templates. don't overindex and don't underindex: work out *why* each one works, then build something that's yours. never lift a reference's signature move (marked **signature** below where it's tempting). take the principle behind it and find this product's own version. open the source and look at it (with screenshots if you're an agent) before borrowing from it.
 
 the full collection, with images, lives at [tetraslam.world/taste](https://tetraslam.world/taste) ([markdown](https://tetraslam.world/taste.md)). entries below link to it.
 
 ## house style
 
-how this shows up in my own work. taken from parc's tokens:
+these are principles. every project derives its own palette, accent, and character from them, and never copies another project's values. parc is one worked example, shown after the principles.
 
-- **surfaces are steps.** sidebar < background < content < raised, a few percent apart in lightness. warm off-white paper (`#e9e8e3`), never pure white. near-black ink, never pure black.
-- **state is an ink overlay at a fixed strength.** hover and press are translucent ink layered over whatever surface they sit on, so they look the same everywhere and nest (a hover on a row, then a stronger one on a control inside it).
-- **one hue.** everything is neutral except a single accent (parc's ember, `#d5683f`) that means alive, arriving, or yours. a second hue has to earn its place.
-- **named motion.** a standard ease (`cubic-bezier(0.2, 0.8, 0.2, 1)`) plus a morph curve for shape changes. 140 / 220 / 380ms. nothing bounces.
-- **text set for reading.** a 62ch measure, a 680px main column, inter for ui, source serif 4 for anything editorial, commit mono only for code and numbers.
+- **surfaces are steps.** a few surface levels a few percent apart in lightness (sidebar, background, content, raised). never pure white or pure black.
+- **state is an ink overlay at a fixed strength.** hover and press are translucent ink over whatever surface they sit on, so they look the same everywhere and nest.
+- **one hue that means something.** everything is neutral except one accent, and that accent has a defined meaning in this product. choose the hue and the meaning per project. a second hue has to earn its place.
+- **named motion.** a standard ease and a morph curve for shape changes, at three or so durations. nothing bounces.
+- **hierarchy before decoration.** on every screen and every row, decide what the reader needs first. give that the weight, and let metadata recede (smaller, quieter, or shown on demand). no row should repeat a label that layout already implies.
+- **text set for reading.** a measure around 60 to 70ch. inter for ui, source serif 4 for anything editorial, commit mono only for code and numbers.
 - **one display voice.** shippori mincho b1 extrabold, huge and rare: titles, heroes, title-card moments. evangelion, not a newspaper.
 - **lowercase, warm copy.** interfaces talk like a person.
+- **identity fits the product.** a social app, a devtool, and a reading site should not share a palette. devtools are dense, calm, and legible.
+
+worked example, parc: warm paper surfaces (`#e3e2dd` < `#e9e8e3` < `#f3f2ee` < `#f8f7f4`), ember `#d5683f` meaning alive, arriving, or yours, `cubic-bezier(0.2, 0.8, 0.2, 1)` plus a morph curve at 140 / 220 / 380ms. these are parc's, not defaults.
 
 ## the bar
 
-three elements from my own work that show how much detail is possible. hold anything new to this standard, then use the details below as a checklist.
+three elements from my own work that show how much detail is possible. hold anything new to this standard, then use the details below as a checklist. the bar is the level of care, not the look: don't copy these elements' colors or shapes into other products.
 
 ### the upload field · delve-onsite
 the drop zone is a live paper-shaders `Dithering` warp, not a static gradient. on hover or drag it brightens from dormant deep blue (`#0f1a24`) to forest green (`#1a4a3a`), speeds up from 0.2 to 0.6, and the shader layer scales to 1.05 over 700ms while the icon ring scales and tints over 500ms. the submit button fills with a wash from left to right on hover. every state of the surface has its own motion, and they all share one ease-out. [source](https://github.com/tetraslam/delve-onsite/blob/master/frontend/src/components/file-upload.tsx)
@@ -57,7 +61,7 @@ press `n` anywhere:
 - smooth abstract graphics that animate on scroll: manifolds, highlights that morph across text.
 
 ### [natural](https://www.natural.com/)
-- a hero sentence that starts in ink and continues in light gray ("wallets. payments. cards..."), with a small grainy gradient tile morphing inline in the text.
+- **signature**: a hero sentence that starts in ink and continues in light gray ("wallets. payments. cards..."), with a small grainy gradient tile morphing inline in the text. the principle is progressive emphasis; don't reuse the fade.
 - the product screenshot sits in a frame of dithered grain, so it reads as an object, not a pasted image.
 - agents get soft gradient swatches as avatars, which gives each identity a color without illustrating anything.
 - lots of whitespace, near-black pill buttons, and a single typeface.
@@ -76,10 +80,10 @@ a little overbearing taken whole, but a great reference.
 ### [prime intellect](https://www.primeintellect.ai/model-factory#hosted-training) · [inference](https://www.primeintellect.ai/inference#dedicated)
 the product pages, not the homepage.
 - product features are explained by small live diagrams of the real thing: a reward curve drawing itself next to its hyperparameters (`max_steps`, `batch_size`, `learning_rate`), an eval list, an observability crosshair labeled logs / traces / metrics / alerts.
-- diagrams sit inside frames with corner tick marks, like crop marks on a print.
+- **signature**: diagrams sit inside frames with corner tick marks, like crop marks on a print. the principle is framing artifacts as specimens; don't reuse the ticks.
 - a sticky section index on the left with an active bar, and numbered points (1.1, 1.2, ... 1.6) that keep counting across sections.
 - the inference page puts a full dashboard (endpoint status, a capacity bar, live-looking charts) on top of a blurred, grainy orange backdrop that looks like paint. a technical artifact on an atmospheric surface.
-- headlines that start bright and fade to gray mid-sentence (the same move as natural).
+- headlines that start bright and fade to gray mid-sentence (natural's signature, see above).
 
 ### [tnkr](https://www.tnkr.ai/) · [entry](https://tetraslam.world/taste/kh78ry65qecjc209pqps832jks827rty)
 - greco-futurism: an ionic pillar, blue sky, an open atmospheric feel. the imagery says trust and foundations.
