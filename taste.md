@@ -145,6 +145,11 @@ paint bleeding in to reveal an image. the effect is worth extracting from the si
 - matisse eb, an ultra-bold mincho serif, in white on black: set huge, stretched or squeezed to fill the frame, stacked in l-shaped and broken layouts, and cut in hard on the beat.
 - typography with timing. it's hideaki anno's signature and carries into his later work (shin godzilla, shin ultraman).
 
+### kyoto animation (violet evergarden, hyouka, sound! euphonium)
+- they animate as if through a real camera lens: bokeh, rack focus, light leaks, a little chromatic aberration, and soft pastel light.
+- small physical details carry the emotion: hands, feet, a sleeve, a glance.
+- on the web: depth of field and focus pulls as transitions (blur what's no longer in focus instead of fading it), soft light and bloom instead of drop shadows, and attention to tiny states.
+
 ## libraries that are also taste
 
 these are in the stack too. what i notice about them:
