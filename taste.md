@@ -42,6 +42,10 @@ press `n` anywhere:
 - hope, grandeur, and restraint all at once.
 - the design treats the content as something serious.
 
+### [stripe press](https://press.stripe.com)
+- books treated as objects worth revering, with the same mix of grandeur and restraint as palladium.
+- take that reverence and leave the density. too much is going on at once.
+
 ### [oxide computer company](https://oxide.computer/) · [entry](https://tetraslam.world/taste/kh7a3qej7xann5rmbkfv4wwd918436cx)
 - the look of physical servers: textured buttons, green cell grids.
 - technical and clear without sliding into fake-hacker monospace.
@@ -73,6 +77,13 @@ press `n` anywhere:
 - mine. background grain, the typography, and a live paper-shaders dithering warp on the upload area that shifts from deep blue to forest green and speeds up on hover. the shader breathes. [source](https://github.com/tetraslam/delve-onsite).
 
 ## software
+
+### [the pierre computer company](https://pierre.computer)
+i love everything they make.
+- the corporate site is a page of raw markdown in mono with a blinking cursor: brackets, `#` headings and all. the content is the design, and it fits a company that makes infrastructure for machines.
+- every open-source library gets its own focused site, where the hero is the real component running ([trees](https://trees.software) opens on a working file tree beside highlighted code).
+- a "for agents" button next to install and docs.
+- they write about the craft itself ([on highlighting code](https://pierre.computer/writing/on-highlighting-code), [on rendering diffs](https://pierre.computer/writing/on-rendering-diffs)).
 
 ### [diffs](https://diffs.com/) · [entry](https://tetraslam.world/taste/kh752gdpd0j48p75ztnvz9tf8n842wx0)
 - extensibility and taste in how the structure is designed.

@@ -34,14 +34,14 @@ the skill also handles the other direction. "add torph to tetrastack, it's the r
 | [ai](stack/ai.md) | ai sdk + gateway · ai elements · streamdown · opentraces with outcomes · firecrawl |
 | [ui](stack/ui.md) | shadcn on base ui · phosphor · cmdk · sonner · tiptap · dnd-kit · use-stick-to-bottom |
 | [motion](stack/motion.md) | motion · torph · paper shaders · vgpu · dither · dot matrix · conway |
-| [content](stack/content.md) | @pierre/diffs · shiki · katex · mermaid · unified |
+| [content](stack/content.md) | @pierre/diffs · @pierre/trees · shiki · katex · mermaid · unified |
 | [ship](stack/ship.md) | vitest · convex-test · react doctor · vercel + analytics |
 
 each entry says what it is, when to reach for it, what to watch out for, and where it shipped.
 
 ## taste
 
-[taste.md](taste.md) holds the house style (stepped surfaces, ink-overlay states, one hue, named motion curves), the bar (three elements from my own work, described down to the edge cases), and the references that calibrate it: palladium, oxide, natural, osmosis, mintlify, tnkr, diffs, pi, and more. each one comes with notes on what to look at.
+[taste.md](taste.md) holds the house style (stepped surfaces, ink-overlay states, one hue, named motion curves), the bar (three elements from my own work, described down to the edge cases), and the references that calibrate it: pierre, palladium, oxide, natural, osmosis, mintlify, tnkr, diffs, pi, and more. each one comes with notes on what to look at.
 
 ## rejected
 

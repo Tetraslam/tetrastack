@@ -27,7 +27,7 @@ used before and replaced. existing projects can keep these. new projects shouldn
 | unmaintained packages | slopware, however good they once were |
 | raw html where shadcn has a component | inconsistent and inaccessible |
 | inline styling everywhere | componentize, and pull values from tokens |
-| fake-hacker monospace aesthetics | mono everywhere passing for technical. be technical through clear hierarchy (see oxide) |
+| fake-hacker monospace aesthetics | mono as a costume. it works when the content really is text for machines (pierre) or the product's voice (mintlify); otherwise be technical through clear hierarchy (oxide) |
 | stock shadcn gray with no theme | the default theme is a starting point, not a design |
 | gradient blobs, glassmorphism for its own sake, emoji in ui | generic ai-template look |
 | "agents" without tools | an agent can always call tools and take multiple steps |

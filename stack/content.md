@@ -6,6 +6,11 @@ rendering code, math, diagrams, and long-form text.
 diff and code rendering from pierre computer. it's built like devtools should be, and it's very extensible.
 - **shipped in**: tetracorp-website
 
+### [@pierre/trees](https://trees.software)
+file tree rendering from the same team as diffs. fast and very customizable. pair the two for anything that shows a repo.
+- **reach for it when**: file browsers, artifact trees, agent workspaces.
+- **watch out**: still in beta (1.0.0-beta.6 as of november 2026).
+
 ### [shiki](https://shiki.style)
 syntax highlighting. keep highlighter state per code block, keyed, and async.
 - **shipped in**: parc
