@@ -1,6 +1,6 @@
 # design brief
 
-write this as `BRIEF.md` in the new project before any ui code. keep it to a page. if the user is around, show it and wait for a yes. if not, commit it and build from it. either way it's the contract for the look, so update it when the look changes.
+write this as `BRIEF.md` in the new project before any ui code. keep it to a page. if the user is around, show the three candidates and let them pick before writing the rest. if not, commit it and build from it. either way it's the contract for the look, so update it when the look changes.
 
 ```md
 # brief
@@ -11,8 +11,11 @@ what it is, who uses it, and the one thing they come to do.
 ## the feeling
 two or three words for how it should feel, and one sentence on why that fits this product.
 
+## candidates
+three directions from tetrastack's taste.md that could fit, each with a one-line pitch for this product. at least one must be unexpected for this kind of product. none may be an attractor unless argued for.
+
 ## direction
-the direction from tetrastack's taste.md (or a deliberate blend, or a new one) and why it fits.
+the pick (or a deliberate blend, or a new one), why it beats the other two, and why it isn't an attractor.
 references picked for this product (2 or 3), and the principle taken from each. no signature moves.
 
 ## identity

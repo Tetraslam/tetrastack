@@ -18,7 +18,7 @@ these hold in every project, whatever it looks like.
 
 ## directions
 
-the look is chosen per project, in a [brief](brief.md) written before any ui code. pick one direction, blend two on purpose, or invent a new one. the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
+the look is chosen per project, in a [brief](brief.md) written before any ui code. the brief proposes three directions that fit, at least one of them unexpected for this kind of product, then picks one (or a deliberate blend, or a new one). the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
 
 - **warm paper** (parc): warm off-white surfaces stepped a few percent apart, hover as ink overlays, one accent (ember) that means alive or yours, and a dither field on surfaces that take input. fits places people live in daily: social, messaging, notes.
 - **live dither** (delve-onsite): dark, grainy, with a shader that breathes on the one surface that matters and reacts to every state. fits single-purpose tools with one hero interaction.
@@ -32,6 +32,42 @@ the look is chosen per project, in a [brief](brief.md) written before any ui cod
 - **greco-futurism** (tnkr): sky, stone, open space, foundations. fits products that must earn trust.
 - **editorial grandeur** (palladium): seriousness, restraint, hope. fits long-form and ideas.
 - **native material** (ghostty): the product renders its own pitch in its own medium (ascii in a terminal, a live trace in a trace viewer). fits any product with a strong medium.
+- **neobrutalism** ([neobrutalism.dev](https://neobrutalism.dev)): flat saturated color, thick black borders, hard offset shadows, unapologetic type. fits playful tools and anything that should feel direct.
+- **skeuomorphism**: real materials and objects (leather, paper, knobs, glass) rendered so controls look like what they do. fits instruments, creative tools, anything tactile.
+- **bento grid**: content in tidy tiles of different sizes, each one a self-contained idea. fits overviews, dashboards, product pages with many facets.
+- **editorial / magazine**: a strong grid, big headlines, pull quotes, columns, image and type in conversation. fits writing, publications, long reads.
+- **scrapbook**: collage, tape, torn paper, handwriting, stickers, things pinned at angles. fits personal, social, memory and collection apps.
+- **acid graphics**: chrome, warped type, rave-flyer energy, neon on black, liquid 3d forms. fits music, events, culture, and launches that should feel loud.
+- **evangelion / nerv**: emergency orange and red on black, hexagonal panels, condensed warning type, a heavy mincho for titles, system readouts. fits monitoring, ops, anything with alarms. see also title card.
+- **art deco**: geometric ornament, gold on deep color, symmetric fans and stepped forms, elegant display type. fits luxury, hospitality, finance with glamour.
+- **game boy / 8-bit**: a four-shade palette, a pixel grid, bitmap fonts, chunky sprites. fits games, toys, nostalgic or very constrained interfaces.
+- **swiss / international typographic**: a rigorous grid, sans-serif type, asymmetric layout, flat color, lots of white space. fits information-heavy products that need clarity.
+- **bauhaus**: primary colors, circles, squares, and triangles, type as construction. fits education, tools, anything about form and function.
+- **constructivism**: diagonals, red and black, photomontage, bold sans type as propaganda. fits announcements, movements, activist or community products.
+- **memphis**: squiggles, terrazzo, clashing pastels and primaries, playful geometry. fits consumer fun, kids, creative play.
+- **risograph / zine**: two or three spot inks, misregistration, grain, photocopied texture, hand-made layouts. fits indie publishing, communities, small-batch creative work.
+- **blueprint / technical drawing**: white line on blue, dimension lines, callouts, orthographic views. fits engineering, hardware, robotics, anything that explains how it's built.
+- **braun functionalism** (dieter rams): calm off-white and gray, one signal color, precise controls, nothing extra. fits utilities and devices.
+- **fui** (film hud): thin lines, scanning grids, telemetry, targeting overlays, sci-fi readouts. fits monitoring, robotics, real-time data.
+- **retro os** (classic mac, windows 95): windows, bevels, pixel icons, a menu bar. fits playful tools, personal sites, nostalgia.
+- **frutiger aero / y2k**: glossy bubbles, sky and water, aqua glass, optimistic tech. fits consumer apps that should feel bright and hopeful.
+- **tufte data-ink**: maximum data, minimum chrome, small multiples, sparklines, labels instead of legends. fits analytics, research, anything numbers-first.
+- **transit signage** (vignelli, wayfinding): strict color coding, bold sans labels, lines and stops, arrows. fits navigation, systems maps, routing and status.
+- **ukiyo-e / woodblock**: flat color planes, bold outlines, patterned water and sky, a carved line. fits storytelling, culture, and slow, beautiful products.
+- **museum archive**: specimen labels, catalog numbers, plates, captions, archival paper. fits collections, research, libraries, taste pages.
+- **receipt / thermal print**: narrow mono columns, dotted rules, timestamps, totals. fits logs, transactions, small utilities with personality.
+- **solarpunk**: lush green, warm sun, art nouveau curves, optimistic ecology. fits climate, community, and hopeful futures.
+- **illuminated manuscript**: drop caps, marginalia, ornament, gold leaf, rubrication. fits reading, scholarship, anything meant to feel precious.
+- **hand-drawn sketch** (rough.js): wobbly lines, marker fills, whiteboard energy. fits brainstorming, early-stage tools, explanations.
+
+### attractors
+
+agents fall into these looks without deciding to. choosing one requires an explicit argument in the brief.
+
+- **warm paper**: parc's look, because parc is the best example on disk.
+- **generic dark devtool**: graphite surfaces with an indigo, violet, or blue accent, hairlines, and inter.
+- **stock shadcn**: neutral gray, default radius, default everything.
+- **ai-startup landing**: black, a gradient glow behind the hero, a mono eyebrow line, a logo wall.
 
 ## the bar
 
