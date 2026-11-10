@@ -12,6 +12,8 @@ these hold in every project, whatever it looks like.
 - **the main artifact leads.** whatever people came to read or use (a trace, a document, a conversation) is the hero, in its natural order. don't hoist summaries, final answers, or overviews above it, and don't dim the parts that carry meaning by default.
 - **every state is designed.** rest, hover, focus, active, loading, empty, error, and success.
 - **nothing shifts, nothing is lost.** no layout shift, and focus and scroll return to where they were. see [perf](perf.md).
+- **transitions, not snaps.** anything that opens, closes, grows, or swaps transitions from its measured size on the project's curves. instant beats animated only when there's nothing to transition. a flicker or snap costs more perceived speed than a 200ms transition.
+- **say less.** no subtitle under every item, no status pills that don't change a decision, no metadata the reader didn't come for. extra info goes on hover or on demand.
 - **motion has a purpose.** each project names its own curves and durations and uses them consistently, and reduced motion is respected.
 - **identity fits the product.** a social app, a devtool, and a reading site should not share a look. devtools are dense, calm, and legible.
 - **copy talks like a person.** lowercase and warm, unless the direction calls for another voice.

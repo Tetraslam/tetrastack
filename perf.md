@@ -29,6 +29,10 @@ benchmarks don't matter. what the user feels does: the thing they wanted is alre
 - reserve space for everything: images with dimensions, columns that render (or render a placeholder) from the start, never a rail that pops in late.
 - an expanding element grows itself (min/max height on the morph curve) instead of pushing the page. see the composer in [taste](taste.md#the-bar).
 
+### transitions beat snaps
+- an expanding element measures its content first, then animates height and opacity on the named curves. no blank frame, no jump, no double render. record it frame by frame to check.
+- instant only when nothing changes shape.
+
 ### writes are instant
 - [optimistic updates](https://docs.convex.dev/client/react/optimistic-updates) for anything the user makes. what they made appears in place immediately, and the server confirms later.
 
