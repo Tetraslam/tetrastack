@@ -10,6 +10,8 @@ these hold in every project, whatever it looks like.
 
 - **hierarchy before decoration.** on every screen and every row, decide what the reader needs first. give that the weight and let metadata recede (smaller, quieter, or on demand). no row repeats a label the layout already implies.
 - **the main artifact leads.** whatever people came to read or use (a trace, a document, a conversation) is the hero, in its natural order. don't hoist summaries, final answers, or overviews above it, and don't dim the parts that carry meaning by default.
+- **severity is honest.** loudness matches what actually needs the reader. an alarm fires only when they must act; noise, stale notes, and recovered errors stay quiet. a ui that cries wolf has failed.
+- **show the present.** anything that monitors something live says what time it is, whether the thing is alive, and when it next acts. data is live or labeled with its age; never show a stale number as if it were current.
 - **every state is designed.** rest, hover, focus, active, loading, empty, error, and success.
 - **nothing shifts, nothing is lost.** no layout shift, and focus and scroll return to where they were. see [perf](perf.md).
 - **transitions, not snaps.** anything that opens, closes, grows, or swaps transitions from its measured size on the project's curves. instant beats animated only when there's nothing to transition. a flicker or snap costs more perceived speed than a 200ms transition.
@@ -21,7 +23,7 @@ these hold in every project, whatever it looks like.
 
 ## directions
 
-the look is chosen per project, in a [brief](brief.md) written before any ui code. the agent picks whatever suits the product best: a direction from this list, a style that isn't listed, or a deliberate blend. the list is a starting range, not a menu. the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
+the look is chosen per project, in a [brief](brief.md) written before any ui code. a direction is studied, not themed: before using one, collect primary sources (real frames, real pages, real objects, not what the style looks like in general), note what makes each work, and build from those. naming a style and then drawing on the average of the internet produces generic slop: chamfered cards, tracked uppercase micro-labels, and a hex wallpaper are not evangelion. the agent picks whatever suits the product best: a direction from this list, a style that isn't listed, or a deliberate blend. the list is a starting range, not a menu. the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
 
 - **warm paper** (parc): warm off-white surfaces stepped a few percent apart, hover as ink overlays, one accent (ember) that means alive or yours, and a dither field on surfaces that take input. fits places people live in daily: social, messaging, notes.
 - **live dither** (delve-onsite): dark, grainy, with a shader that breathes on the one surface that matters and reacts to every state. fits single-purpose tools with one hero interaction.

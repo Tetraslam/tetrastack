@@ -15,6 +15,9 @@ two or three words for how it should feel, and one sentence on why that fits thi
 the direction, chosen from tetrastack's taste.md or from any style not listed there that suits this product better, or a deliberate blend. why it fits this product. if it's an attractor, the argument for it.
 references picked for this product (2 or 3), and the principle taken from each. no signature moves.
 
+## primary sources
+4 to 8 real references for the direction (stills, pages, objects), each with what specifically to take from it. collected and looked at before writing anything below.
+
 ## identity
 - palette: surfaces, ink, accent, and what the accent means here
 - type: reading and display faces, if any, beyond inter and commit mono
