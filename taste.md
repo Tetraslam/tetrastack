@@ -46,7 +46,7 @@ the look is chosen per project, in a [brief](brief.md) written before any ui cod
 - **scrapbook**: collage, tape, torn paper, handwriting, stickers, things pinned at angles. fits personal, social, memory and collection apps.
 - **acid graphics**: chrome, warped type, rave-flyer energy, neon on black, liquid 3d forms. fits music, events, culture, and launches that should feel loud.
 - **evangelion / nerv**: emergency orange and red on black, warning bands that take over the screen, condensed warning type, a heavy mincho for titles, system readouts. fits monitoring, ops, anything with alarms. see also title card.
-- **art deco**: geometric ornament, gold on deep color, symmetric fans and stepped forms, elegant display type. fits luxury, hospitality, finance with glamour.
+- **art deco**: the warm, restrained kind: san francisco lobbies, old gold and bronze against cream stone, stepped geometry, fine metal grilles and lettering. not black-and-gold glam. fits hospitality, finance, and anything that should feel established and elegant.
 - **game boy / 8-bit**: a four-shade palette, a pixel grid, bitmap fonts, chunky sprites. fits games, toys, nostalgic or very constrained interfaces.
 - **swiss / international typographic**: a rigorous grid, sans-serif type, asymmetric layout, flat color, lots of white space. fits information-heavy products that need clarity.
 - **bauhaus**: primary colors, circles, squares, and triangles, type as construction. fits education, tools, anything about form and function.

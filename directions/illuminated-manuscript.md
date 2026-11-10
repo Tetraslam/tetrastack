@@ -12,5 +12,8 @@ drop caps, marginalia, ornament, gold leaf, rubrication. fits reading, scholarsh
 - [Getty’s *Book of Hours* by the Master of Sir John Fastolf, about 1430–40](https://www.getty.edu/art/collection/object/103RW6): Study patterned grounds, acanthus borders, gold ivy, and the unequal emphasis given to images and text. Use illuminated initials to mark meaningful beginnings, not every paragraph.
 - [Morgan Library’s digital facsimile of the thirteenth-century Crusader Bible](https://www.themorgan.org/collection/Crusader-Bible): Borrow its framed narrative registers, recurring panel divisions, and compact palette. Keep adjacent scenes visually coherent while allowing figures or actions to create controlled variation.
 
+## on the web
+none at the bar yet. the specimens reproduce parchment, initials, and ornament without meeting the craft bar.
+
 ## avoid
 Blackletter body copy, heavy parchment distress, and gold filigree surrounding every control.

@@ -12,5 +12,8 @@ diagonals, red and black, photomontage, bold sans type as propaganda. fits annou
 - [Aleksandr Rodchenko’s design for Mayakovsky’s *About This. To Her and to Me*, 1923](https://www.moma.org/collection/works/16012): Combine sharply cropped photography with large typographic blocks. Use deliberate scale discontinuities and hard-edged montage instead of softly blended imagery.
 - [Rodchenko’s cover for *Novyi LEF*, issue 1, 1928](https://www.moma.org/collection/works/8217): Treat the publication name, issue number, and supporting text as distinct compositional units. Build a reusable editorial system from bold type, rectangular divisions, and concentrated accent color.
 
+## on the web
+none at the bar yet. the leads were unavailable, archived, or conventional sites with an old constructivist case study.
+
 ## avoid
 Red-and-black propaganda wallpaper, fake Cyrillic, and diagonals applied equally to headings, paragraphs, and controls.

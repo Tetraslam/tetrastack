@@ -14,5 +14,8 @@ note: tnkr.ai no longer shows the classical treatment this direction was named f
 - [The fabricator’s project gallery for Calatrava’s Athens Olympic structures](https://www.metka.gr/en/activities/infrastructure-projects/certified-buildings/olympic-athletics-complex-of-athens): Use repeated slender structural members, sweeping curves, and coherent white surfaces to connect classical procession with contemporary engineering.
 - [The Classical Futurist’s own publication archive](https://www.classicalfuturist.com/archive): Study how conventional editorial typography, restrained navigation, and historically grounded imagery can carry the classical association without turning the interface into a temple.
 
+## on the web
+none at the bar yet. the product sites investigated no longer show the classical direction, and the design-system experiments are generic.
+
 ## avoid
 A marble bust floating above purple gradients, faux-Greek lettering, and AI-generated temples substituted for proportion and composition.

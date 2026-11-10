@@ -12,5 +12,8 @@ wobbly lines, marker fills, whiteboard energy. fits brainstorming, early-stage t
 - [The working Excalidraw whiteboard application](https://excalidraw.com/): Keep application chrome quiet and readable while the drawing surface carries the sketch character. Use a limited palette, familiar diagram shapes, and generous canvas space.
 - [Wired Elements’ live hand-drawn UI component showcase](https://wiredjs.com/): Study how rough outlines coexist with recognizable buttons, inputs, sliders, and selection states. Apply irregularity to rendering without making control boundaries or behavior ambiguous.
 
+## on the web
+- [Excalidraw, the drawing app](https://excalidraw.com/): expressive irregularity in the drawing layer, precision in the interaction layer. consistent spacing and tool placement make the looseness feel intentional.
+
 ## avoid
 Comic-style typography, randomly rotated cards, and wobble animations on everything.

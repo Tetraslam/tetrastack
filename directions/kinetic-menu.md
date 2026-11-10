@@ -12,5 +12,8 @@ a palette of two or three colors at full contrast, angled shapes, cut-out letter
 - [original Japanese Persona 5 Royal promotional website, with gameplay screenshots and custom graphical navigation](https://p5r.jp/): study cutout typography, offset black backing shapes, star-shaped accents, and screenshots mounted in irregular frames. Repeat a small family of angles rather than rotating every element independently.
 - [official international Persona 5 Royal website](https://persona.atlus.com/p5r/): examine how the visual language accommodates longer localized text, character selectors, and purchase controls. Keep the red ground and black silhouettes dominant; reserve white for readable content and emphatic actions.
 
+## on the web
+- [Persona 5: The Phantom X, official site](https://persona5x.com/): ransom-letter navigation, tilted silhouettes, and a tightly controlled red/black/white hierarchy. selection is expressed through shape and position, not animation added to conventional buttons.
+
 ## avoid
 a red-and-black dashboard with every card tilted, every word outlined, and continuous motion unrelated to selection.

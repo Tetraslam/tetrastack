@@ -12,5 +12,8 @@ status: draft
 - [Gumroad’s commerce-product marketing site](https://gumroad.com/): Combine large straightforward typography, flat contrasting color fields, visible boundaries, and playful illustration. Maintain a clear sales narrative despite the intentionally loud treatment.
 - [A screenshot archive of original brutalist websites, with links and designer interviews](https://brutalistwebsites.com/): Study the earlier variety: exposed document structures, unconventional navigation, abrupt scale changes, and deliberately unpolished layouts.
 
+## on the web
+- [Gumroad's features page](https://gumroad.com/features): acid-yellow fields, oversized plain typography, and outlined illustrations make a dense commercial explanation approachable. controlled section rhythm and clear structural boundaries.
+
 ## avoid
 Putting a black border and displaced shadow on every element, then adding random starbursts until hierarchy disappears.

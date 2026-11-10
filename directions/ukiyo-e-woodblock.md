@@ -12,5 +12,8 @@ flat color planes, bold outlines, patterned water and sky, a carved line. fits s
 - [Hiroshige’s *Sudden Shower over Shin-Ōhashi Bridge and Atake*, 1857](https://www.metmuseum.org/art/collection/search/55433): Study the steep diagonal bridge against broad horizontal fields, localized tonal gradation, and fine rain lines. Keep texture directional and subordinate to the main silhouette.
 - [Hiroshige’s *Sudden Shower in Shōno*, ca. 1833–34](https://www.metmuseum.org/art/collection/search/36967): Layer dark foreground shapes against pale distant forms; use diagonals to direct reading. Keep title cartouches discrete and rectangular instead of scattering ornamental lettering.
 
+## on the web
+none at the bar yet. showing ukiyo-e artworks on a page doesn't make a woodblock interface.
+
 ## avoid
 A Great Wave background, red sun, cherry blossoms, and faux-Japanese display type pasted onto ordinary cards.

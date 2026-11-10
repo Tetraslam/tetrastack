@@ -12,5 +12,8 @@ thin lines, scanning grids, telemetry, targeting overlays, sci-fi readouts. fits
 - [Territory Studio’s production archive for *Blade Runner 2049*, including development reels and finished interfaces](https://territorystudio.com/project/blade-runner-2049/): Differentiate systems through material behavior: degraded optical imagery, chunky utilitarian readouts, or restrained corporate displays. Texture should communicate the equipment’s age and purpose.
 - [Documented screenshot archive covering *Alien* interfaces and their reuse in later films](https://scifiinterfaces.com/category/alien-franchise/alien-1979/?order=asc): Study bounded CRT displays, low-color wireframes, large status changes, and physical controls surrounding screens. Use clear operating modes rather than filling every available pixel.
 
+## on the web
+none at the bar yet. Kaspersky's cybermap has the vocabulary but not the craft; SpaceX's docking simulator is promising but unassessed.
+
 ## avoid
 Cyan concentric circles, meaningless telemetry, perpetual scanning animations, and glowing borders on every panel.

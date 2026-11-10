@@ -12,5 +12,8 @@ dark, grainy, with a shader that breathes on the one surface that matters. fits 
 - [its source](https://github.com/tetraslam/delve-onsite/blob/master/frontend/src/components/file-upload.tsx): the exact state choreography (color, speed, scale, timings).
 - [paper shaders](https://shaders.paper.design): the Dithering component and its parameters.
 
+## on the web
+- [Low-tech Magazine's solar-powered edition](https://solar.lowtechmagazine.com/): dithered imagery applied systematically while text stays crisp, plus visible battery and page-weight state. a constrained, repeatable image treatment carries the identity.
+
 ## avoid
 dither as a full-page background behind text, or a static dithered image. the dither reacts, and it lives on the surface that takes input.

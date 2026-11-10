@@ -12,5 +12,8 @@ chrome, warped type, rave-flyer energy, neon on black, liquid 3d forms. fits mus
 - [Bráulio Amado’s own portfolio, including Good Room posters and record artwork](https://badbadbadbad.com/): study lettering that becomes illustration, uncomfortable scale changes, and deliberately limited but abrasive color combinations. Give each composition one dominant distortion rather than applying a universal glitch filter.
 - [Jonathan Castro Alejos’s own visual-work archive and portfolio website](https://jonathancastro.pe): study the collision of organic texture, digitally manipulated surfaces, and precise typography. Keep navigation simple enough to expose the work; let the imagery supply instability.
 
+## on the web
+- [Dekmantel, the electronic-music festival's official site](https://dekmantelfestival.com/): fluorescent yellow-green lettering, purple fields, distorted insignia, and degraded imagery carry the rave identity while navigation stays compact and readable. keep expressive artwork separate from dependable ticketing.
+
 ## avoid
 lime green plus black, chrome blobs, and a distorted font pasted onto an otherwise ordinary SaaS layout.

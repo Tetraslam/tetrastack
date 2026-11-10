@@ -13,5 +13,10 @@ windows, bevels, pixel icons, a menu bar. fits playful tools, personal sites, no
 - [browser-accessible emulation collection of historical Macintosh systems](https://infinitemac.org/): interact with menus, window dragging, selection, and overlapping documents. Reference actual behavior and component proportions, not just desktop wallpaper and icons.
 - [working Windows 98-inspired desktop implemented for the web](https://98.js.org/): study how desktop windows, taskbar state, menus, and familiar applications work together in a browser. Use it as a web adaptation, while keeping Windows 95 versus 98 details explicit.
 
+## on the web
+- [Poolsuite, a music player and clubhouse presented as a vintage desktop](https://poolsuite.net/): small app windows, striped title bars, a restrained cream-and-gray palette, and a persistent launcher. the desktop metaphor organizes real player, mixtape, and editorial functions.
+- [a searchable Windows icon collection inside a working desktop interface](https://windowsicons.alexmeub.com/): Explorer's compact toolbar, icon grid, and selection states making a nostalgic shell serve a straightforward utility.
+- [98.js, a Windows 98 desktop with working apps](https://98.js.org/): window activation, taskbar feedback, menus, and beveled control states. borrow the interaction grammar selectively; a whole desktop only fits a product with several tools.
+
 ## avoid
 random floating gray windows, decorative close buttons, and modern padding inside fake vintage chrome.

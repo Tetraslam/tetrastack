@@ -12,5 +12,8 @@ narrow mono columns, dotted rules, timestamps, totals. fits logs, transactions, 
 - [Nord Projects’ own Little Printer revival, showing printed output and its messaging application](https://nordprojects.co/projects/littleprinters/): Treat a printout as a short, self-contained publication. Combine compact typography with high-contrast illustrations and dithering rather than shrinking a desktop page onto a paper strip.
 - [Little Printer publication maker David Somers’s illustrated account of designing actual thermal publications](https://medium.com/@jalada/271ade07ec16): Study one-bit patterns, dithered headers, clear start/end boundaries, and type sized for the physical print. Prefer simple silhouettes and controlled gray fields over detailed photographs.
 
+## on the web
+none at the bar yet. Receiptify's output and ReceiptLine are useful implementation references, not exceptional overall sites.
+
 ## avoid
 A jagged paper edge and monospaced font around an otherwise conventional spacious dashboard.

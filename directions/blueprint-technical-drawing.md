@@ -12,5 +12,8 @@ white line on blue, dimension lines, callouts, orthographic views. fits engineer
 - [AISC’s *Structural Steel Bridge Shop Drawings* manual, containing specimen drawing sheets](https://www.aisc.org/media/hd0atw1y/b903_sbdh_chapter3.pdf): Study the drawing specimens’ title blocks, detail identifiers, dimension chains, and separated notes. Translate these into consistent metadata panels, labeled diagrams, and explicit cross-references.
 - [Original Chrysler Building electrical-plan blueprint, 1929](https://www.loc.gov/pictures/item/2020630454/): Use the sheet’s overall organization as a reference: several related plans within one bounded document, with reserved annotation areas.
 
+## on the web
+- [Podium, a control-panel builder whose identity is built from real panel schematics: fine linework on charcoal, cream and yellow fields](https://www.podiumautomation.com/): derive the graphic system from the thing being engineered, and keep detailed technical imagery separate from simple readable panels. the [case study](https://www.zypsy.com/work/podium) shows the link between the equipment and the site.
+
 ## avoid
 A blue graph-paper background covered with meaningless measurements, crosshairs, and decorative engineering labels.

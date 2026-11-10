@@ -8,9 +8,19 @@ status: draft
 geometric ornament, gold on deep color, symmetric fans and stepped forms, elegant display type. fits luxury, hospitality, finance with glamour.
 
 ## sources
-- [A. M. Cassandre’s *Normandie* advertising poster, 1935](https://www.moma.org/collection/works/6091): Use a powerful central axis, monumental cropping, and a compact title band beneath a dominant image. Convey luxury through proportion and disciplined scale contrast.
-- [Cassandre’s *Étoile du Nord* railway poster, 1927](https://www.moma.org/collection/works/5807): Make perspective lines converge toward a deliberate focal point. Use geometric lettering and a few large tonal planes rather than ornamental borders around every section.
-- [Émile-Jacques Ruhlmann’s *Fuseaux* cabinet, ca. 1925, acquired directly from the designer](https://www.metmuseum.org/art/collection/search/487425): Set intricate pattern inside a simple, carefully proportioned enclosure. Translate the contrast between slender supports and substantial cabinet into fine rules framing generous content regions.
+the warm, restrained kind: san francisco lobbies and towers, old gold and bronze against cream stone. not black-and-gold glam.
+
+- [the Shell Building, from its restoration architect](https://www.hellermanus.com/shell-building): gold-toned elevator doors, pale marble, ornamental grilles, directory lettering, shell motifs in the floor. the strongest warm-material reference: pale stone becomes surfaces, metal becomes fine borders and labels.
+- [140 New Montgomery, the owner's gallery](https://140nm.com/gallery/): the Pacific Telephone building. narrow vertical proportions, setbacks, bronze details, geometric lobby ceiling.
+- [450 Sutter, the owner's history](https://450sutter.com/about): Mayan-inspired terra-cotta spandrels and bronze-finished ceiling relief. take the geometric relief and finely drawn lettering; its darker marble is the exception to the cream palette.
+- [Aquatic Park's murals and mosaics, from the National Park Service](https://www.nps.gov/safr/learn/historyculture/artists-of-aquatic-park.htm): streamline moderne by the water. muted colors, simplified contours, gold and silver leaf used selectively.
+- [the Golden Gate Bridge's deco details, from the bridge district](https://www.goldengate.org/exhibits/art-deco-on-a-grand-scale): stepped brackets, chevrons, fluting, staggered pylon tops. use it for geometry, not palette.
+- [the Paramount Theatre in Oakland, its restoration](https://www.paramountoakland.org/about/restoration): vertical rhythm and grille patterns. the whole theatre is lusher than the target, so take parts, not the room.
+- [I. Magnin, Oakland, 1951 photograph](https://calisphere.org/item/24f954c997ed88cf44d8693a5039bfd0/): facade rhythm, lettering, and cornice proportions (monochrome, so not color).
+- [Émile-Jacques Ruhlmann's Fuseaux cabinet, ca. 1925, at the Met](https://www.metmuseum.org/art/collection/search/487425): intricate pattern inside a simple, carefully proportioned enclosure. translate slender supports against a solid body into fine rules framing generous content.
+
+## on the web
+none at the bar yet. The Edmon, 140 New Montgomery's site, and Léna all fall short. architectural character alone doesn't make an excellent website.
 
 ## avoid
 A black-and-gold Gatsby template with sunbursts, excessive letterspacing, and indiscriminate geometric trim.

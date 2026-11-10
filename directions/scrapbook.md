@@ -12,5 +12,8 @@ collage, tape, torn paper, handwriting, stickers, things pinned at angles. fits 
 - [Samuel Castner’s scrapbook page containing two architectural photographs and accompanying annotations](https://libwww.freelibrary.org/digital/item/58767): Use unequal image sizes, generous mounting space, and captions placed beside their subjects. A quiet backing surface makes collected objects feel individually meaningful.
 - [Cameron Askin’s interactive web collage assembled from archived GeoCities material](https://www.cameronsworld.net/): Build distinct thematic clusters within a continuous scroll; let individual cutouts become links. Preserve differences in asset scale and resolution instead of forcing everything into matching cards.
 
+## on the web
+- [Postaway, a service for sending vintage postcards online](https://www.postaway.space/): layered postcards and stamps express the product directly, anchored by oversized orange type. believable paper overlap and one decisive accent instead of accumulated stickers.
+
 ## avoid
 Beige paper, identical tilted Polaroids, and decorative tape repeated on every component.
