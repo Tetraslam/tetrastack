@@ -9,6 +9,7 @@ the full collection, with images, lives at [tetraslam.world/taste](https://tetra
 these hold in every project, whatever it looks like.
 
 - **hierarchy before decoration.** on every screen and every row, decide what the reader needs first. give that the weight and let metadata recede (smaller, quieter, or on demand). no row repeats a label the layout already implies.
+- **the main artifact leads.** whatever people came to read or use (a trace, a document, a conversation) is the hero, in its natural order. don't hoist summaries, final answers, or overviews above it, and don't dim the parts that carry meaning by default.
 - **every state is designed.** rest, hover, focus, active, loading, empty, error, and success.
 - **nothing shifts, nothing is lost.** no layout shift, and focus and scroll return to where they were. see [perf](perf.md).
 - **motion has a purpose.** each project names its own curves and durations and uses them consistently, and reduced motion is respected.

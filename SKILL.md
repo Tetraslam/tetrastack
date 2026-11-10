@@ -17,7 +17,8 @@ All paths below are relative to this file. If the skill isn't installed locally,
 4. For anything visual, read `taste.md`, then write `BRIEF.md` from `brief.md` before any UI code. Pick the direction that suits this product best, from taste.md's list or any style not listed there. None is the default; the attractors listed in taste.md need an explicit argument. Derive this project's own palette, accent, and identity, and state how it differs from the closest existing project. Decide autonomously: commit the brief and build from it without waiting for approval. Never use another repo's CSS or tokens as a visual starting point (parc, tetravoice, and the rest); link them only for mechanisms. Hold every screen to the constants and the bar: hierarchy first, every state designed, no layout shift, focus and scroll restored. Open the references the brief names (screenshot them with a browser tool if you have one). Borrow the reasoning behind a reference, never its layout or a move marked **signature**.
 5. For anything with data or an agent, follow `perf.md`. Optimize what the user feels: prefetch what's one click away, make the first paint the real page, never flash a skeleton, never shift the layout, and make agent work visible while it happens.
 6. Check the current docs of each pick before writing code (Context7, or the docs inside `node_modules`). Versions move faster than this file.
-7. Record the stack you chose in the new project's README or AGENTS.md as a short `stack` section, so later sessions inherit the decisions.
+7. Before calling the UI done, check the build against `BRIEF.md` point by point and fix any drift.
+8. Record the stack you chose in the new project's README or AGENTS.md as a short `stack` section, so later sessions inherit the decisions.
 
 ## Record into it
 
