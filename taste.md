@@ -23,6 +23,8 @@ these hold in every project, whatever it looks like.
 
 ## directions
 
+every direction has a file in [directions/](directions/) with primary sources to study before designing.
+
 the look is chosen per project, in a [brief](brief.md) written before any ui code. a direction is studied, not themed: before using one, collect primary sources (real frames, real pages, real objects, not what the style looks like in general), note what makes each work, and build from those. naming a style and then drawing on the average of the internet produces generic slop: chamfered cards, tracked uppercase micro-labels, and a hex wallpaper are not evangelion. the agent picks whatever suits the product best: a direction from this list, a style that isn't listed, or a deliberate blend. the list is a starting range, not a menu. the order here means nothing, and none of them is the default. never start from another project's css or tokens, including parc's.
 
 - **warm paper** (parc): warm off-white surfaces stepped a few percent apart, hover as ink overlays, one accent (ember) that means alive or yours, and a dither field on surfaces that take input. fits places people live in daily: social, messaging, notes.
@@ -43,7 +45,7 @@ the look is chosen per project, in a [brief](brief.md) written before any ui cod
 - **editorial / magazine**: a strong grid, big headlines, pull quotes, columns, image and type in conversation. fits writing, publications, long reads.
 - **scrapbook**: collage, tape, torn paper, handwriting, stickers, things pinned at angles. fits personal, social, memory and collection apps.
 - **acid graphics**: chrome, warped type, rave-flyer energy, neon on black, liquid 3d forms. fits music, events, culture, and launches that should feel loud.
-- **evangelion / nerv**: emergency orange and red on black, hexagonal panels, condensed warning type, a heavy mincho for titles, system readouts. fits monitoring, ops, anything with alarms. see also title card.
+- **evangelion / nerv**: emergency orange and red on black, warning bands that take over the screen, condensed warning type, a heavy mincho for titles, system readouts. fits monitoring, ops, anything with alarms. see also title card.
 - **art deco**: geometric ornament, gold on deep color, symmetric fans and stepped forms, elegant display type. fits luxury, hospitality, finance with glamour.
 - **game boy / 8-bit**: a four-shade palette, a pixel grid, bitmap fonts, chunky sprites. fits games, toys, nostalgic or very constrained interfaces.
 - **swiss / international typographic**: a rigorous grid, sans-serif type, asymmetric layout, flat color, lots of white space. fits information-heavy products that need clarity.

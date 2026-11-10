@@ -43,7 +43,7 @@ each entry says what it is, when to reach for it, what to watch out for, and whe
 
 [taste.md](taste.md) holds the constants every project keeps (hierarchy first, every state designed, nothing shifts), a dozen directions to choose from (warm paper, live dither, title card, kinetic menu, lens, painterly, hardware specimen, raw text, and more), the bar (three elements from my own work, down to the edge cases), and the references behind it all: pierre, gwern, nous, prime intellect, palladium, oxide, natural, persona 5, evangelion, kyoto animation, and more.
 
-every project picks its own look in a [brief](brief.md) before any ui code, so nothing converges on one house style.
+every project picks its own look in a [brief](brief.md) before any ui code, and studies it from the primary sources in [directions/](directions/), so nothing converges on one house style.
 
 ## effective perf
 
