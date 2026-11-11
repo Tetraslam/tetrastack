@@ -18,7 +18,9 @@ flat color planes, bold outlines, patterned water and sky, a carved line. fits s
 - [Kawase Hasui’s *Misty Moonlight at Matsue*, 1924](https://www.artic.edu/artworks/2587) (shin-hanga, in copyright): night light done with one lit window, lit cloud edges, broken reflections. Study it for changing light; the edo prints rarely show the same place at different hours.
 
 ## learned in practice
-- kiri (live golden gate fog): the same view printed as weather states is the genre's native form (tōkaidō morning mist, sudden shower, evening snow). Treat each color as a block: flat fill, slight misregistration, pigment pooling at block edges, woodgrain in large fills, washi fiber over all. Put the key line only on near forms.
+- kiri (live golden gate fog): the same view printed as weather states is the genre's native form (tōkaidō morning mist, sudden shower, evening snow). Treat each color as a block: flat fill, pigment pooling at block edges, woodgrain in large fills, washi fiber through every ink. Put the key line only on near forms.
+- Draw weather as disappearance, not as a shape. Every attempt to draw fog's own surface (stacked billow rows, domes, scalloped undersides) read as stickers to an outside critic; what worked was one seamless sheet with a few broad billows at its far edge, long horizontal reserves wiped away at their lower edge, and what stands inside it greyed to a flat ghost with its key line gone.
+- Missing data has a medium-native state: print only the key block, a proof on bare paper, so it can't pass for clear weather.
 
 ## on the web
 none at the bar yet. showing ukiyo-e artworks on a page doesn't make a woodblock interface.
