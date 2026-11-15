@@ -31,7 +31,7 @@ pulls the schematic symbol, footprint and 3d model for a part into kicad by its 
 
 - [ocp viewer](https://github.com/bernhard-42/ocp_viewer): a live view of a build123d part in the browser, for a person to orbit and inspect. `pip install ocp_viewer`, then `python -m ocp_viewer` serves it at `http://127.0.0.1:3939`. no vs code needed. not yet tried.
 - [tscircuit](https://tscircuit.com): circuit boards written as typescript and react, with a `tsci` command line that previews the board and exports gerbers, placement files and a parts list. try it on the first simple board. kicad stays the default until a tscircuit board has come back from the fab working.
-- [kistack](https://github.com/BackplaneWorks/kistack): human-written kicad skills for agents (schematic, pcb review, bom, exports, gerber review). `npx skills add American-Embedded/kistack`. the repo has no standard license, so read it before installing.
+- [kistack](https://github.com/BackplaneWorks/kistack): human-written kicad skills for agents (schematic, pcb review, bom, exports, gerber review). `npx skills add American-Embedded/kistack`. mit licensed, with a clause against reusing their logo.
 
 ## watching
 
