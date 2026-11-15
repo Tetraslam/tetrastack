@@ -15,7 +15,7 @@ printer firmware, and the http api in front of it. moonraker is what an agent ca
 
 ### [jlcpcb](https://jlcpcb.com)
 circuit boards and assembly.
-- **watch out**: choose parts from [lcsc](source.md) first, because assembly pulls from its catalog.
+- **watch out**: choose parts from [lcsc](source.md) first, because assembly pulls from its catalog. make the order files (gerbers, parts list, placement file) with [fabrication toolkit](https://github.com/bennymeg/Fabrication-Toolkit)'s command line, which applies jlcpcb's rotation corrections. there is no way to place an assembled-board order from a script: the [official api](https://api.jlcpcb.com/) needs an approved application and assembly orders through it are unconfirmed. so an agent uploads the files in the browser and fills the cart, and a person checks part placement and pays.
 - **not this**: hand-soldering small surface-mount parts.
 
 ### [jlccnc](https://jlccnc.com) / [jlc3dp](https://jlc3dp.com)

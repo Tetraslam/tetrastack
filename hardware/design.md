@@ -17,6 +17,14 @@ how an agent sees a part. it renders a step or stl file to a png with no window,
 schematics and boards. the files are text and sit in git, and [`kicad-cli`](https://docs.kicad.org/master/en/cli/cli.html) runs checks and exports fabrication files without the gui.
 - **reach for it when**: any circuit board.
 - **watch out**: run erc and drc from `kicad-cli` before every order.
+
+### [pcbparts mcp](https://github.com/Averyy/pcbparts-mcp)
+how an agent picks parts for a board jlcpcb will assemble: search by specification, live stock checks, alternatives, and digi-key and mouser lookups. hosted with no key, or self-hosted.
+- **watch out**: not yet tried. the offline fallback is the [jlcpcb parts database](https://github.com/CDFER/jlcpcb-parts-database), a daily sqlite file to query directly.
+
+### [easyeda2kicad](https://github.com/uPesy/easyeda2kicad.py)
+pulls the schematic symbol, footprint and 3d model for a part into kicad by its lcsc number.
+- **watch out**: check imported pin numbers and footprint size against the datasheet. the tool does not guarantee them.
 - **not this**: closed or browser-only board tools.
 
 ## contextual
