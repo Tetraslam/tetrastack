@@ -19,7 +19,7 @@ records what a robot sees and does (cameras, joint angles, 3d poses) on one time
 
 ### [orbbec gemini 305](https://store.orbbec.com/products/gemini-305)
 the wrist camera: colour and depth, $229. depth starts at 4 cm, which is where a gripper works, and both sensors capture the whole frame at once, so images don't smear when the arm moves. read from python with [pyorbbecsdk](https://github.com/orbbec/pyorbbecsdk) (mit, no kernel patches).
-- **watch out**: not bought yet. seeed's wrist bracket is named for the d405 and the 305 together, but the fit is unchecked. lerobot has no orbbec support, so it would need a small adapter.
+- **watch out**: seeed's wrist bracket is named for the d405 and the 305 together, but the fit is unchecked. lerobot has no orbbec support, so it would need a small adapter.
 - **not this**: the realsense d435i and gemini 2 on the wrist. their depth starts at 28 cm and 15 cm.
 
 ### [logitech c920s](https://www.logitech.com/en-us/shop/p/c920s-pro-hd-webcam)
