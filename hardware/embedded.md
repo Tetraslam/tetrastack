@@ -15,7 +15,12 @@ the board for precise timing.
 
 ### rust with [embassy](https://embassy.dev)
 the firmware language and async framework: [esp-hal](https://github.com/esp-rs/esp-hal) on esp32, [embassy-rp](https://docs.embassy.dev/embassy-rp) on the pico. one language across both chips.
-- **watch out**: maturity on the esp32-c6 and the pico 2's chip is not confirmed. c with esp-idf is the fallback.
+- **reach for it when**: the device runs unattended, needs exact timing or low power, or sits on a custom board.
+- **watch out**: wi-fi and bluetooth on esp32 come from [esp-radio](https://github.com/esp-rs/esp-hal/tree/main/esp-radio), which is still in beta and needs esp-hal's `unstable` feature. accepted: an agent can debug it. the pico 2's chip is supported in embassy-rp.
+
+### [circuitpython](https://circuitpython.org)
+python on the chip. adafruit writes its sensor drivers for it, and it has builds for all three boards above.
+- **reach for it when**: trying out a sensor or breakout, or any device where an adafruit driver exists and timing doesn't matter. move to rust when the device becomes permanent or needs exact timing.
 
 ### [probe-rs](https://probe.rs)
 flashing and debugging from one command line, for both chips.
@@ -24,6 +29,13 @@ flashing and debugging from one command line, for both chips.
 firmware tests that run on the real chip. probe-rs flashes them, resets the board between cases and reports results like a normal rust test run. async tests work with embassy.
 - **reach for it when**: any firmware test. the boards stay plugged in, so there is nothing to simulate.
 - **not this**: wokwi. its simulator is closed and runs on their servers (50 free minutes a month, offline use only on the €20 plan).
+
+## which language
+
+- on the computer (cad, robot control, tests, tooling): python.
+- on the chip, trying a sensor or building something quick: circuitpython.
+- on the chip, permanent, timing-critical or low-power: rust with embassy.
+- a device that only reports or toggles something for the house: esphome, no code.
 
 ## contextual
 

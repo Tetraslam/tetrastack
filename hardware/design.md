@@ -8,6 +8,11 @@ mechanical parts written as python. an agent writes the shape as code, and it ex
 - **watch out**: take screws, bearings and gears from [bd_warehouse](https://github.com/gumyr/bd_warehouse) instead of redrawing them.
 - **not this**: fusion 360 (closed, cloud, no linux). freecad scripts for new parts.
 
+### [f3d](https://f3d.app)
+how an agent sees a part. it renders a step or stl file to a png with no window, so the agent can look at what its code made before anything is printed. `pip install f3d`, then `Engine.create(True)`, `scene.add(file)`, `window.render_to_image().save(png)`.
+- **reach for it when**: after every change to a part. render it from a few angles and look.
+- **watch out**: the default camera looks straight down. set the camera for side and angled views.
+
 ### [kicad](https://www.kicad.org)
 schematics and boards. the files are text and sit in git, and [`kicad-cli`](https://docs.kicad.org/master/en/cli/cli.html) runs checks and exports fabrication files without the gui.
 - **reach for it when**: any circuit board.
@@ -16,6 +21,7 @@ schematics and boards. the files are text and sit in git, and [`kicad-cli`](http
 
 ## contextual
 
+- [ocp viewer](https://github.com/bernhard-42/ocp_viewer): a live view of a build123d part in the browser, for a person to orbit and inspect. `pip install ocp_viewer`, then `python -m ocp_viewer` serves it at `http://127.0.0.1:3939`. no vs code needed. not yet tried.
 - [tscircuit](https://tscircuit.com): circuit boards written as typescript and react, with a `tsci` command line that previews the board and exports gerbers, placement files and a parts list. try it on the first simple board. kicad stays the default until a tscircuit board has come back from the fab working.
 - [kistack](https://github.com/BackplaneWorks/kistack): human-written kicad skills for agents (schematic, pcb review, bom, exports, gerber review). `npx skills add American-Embedded/kistack`. the repo has no standard license, so read it before installing.
 
