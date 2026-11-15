@@ -21,6 +21,7 @@ the firmware language and async framework: [esp-hal](https://github.com/esp-rs/e
 ### [circuitpython](https://circuitpython.org)
 python on the chip. adafruit writes its sensor drivers for it, and it has builds for all three boards above.
 - **reach for it when**: trying out a sensor or breakout, or any device where an adafruit driver exists and timing doesn't matter. move to rust when the device becomes permanent or needs exact timing.
+- **watch out**: [micropython](https://micropython.org) is a fine swap when a project needs something circuitpython lacks. agents write both.
 
 ### [probe-rs](https://probe.rs)
 flashing and debugging from one command line, for both chips.

@@ -4,7 +4,7 @@ turning a design into an object, at home or by order.
 
 ### [orcaslicer](https://github.com/OrcaSlicer/OrcaSlicer)
 the slicer, run from the command line.
-- **watch out**: for the snapmaker u1, use [snapmaker orca](https://github.com/Snapmaker/OrcaSlicer), snapmaker's open fork (agpl, linux builds). mainline orcaslicer still has open u1 issues around multi-colour prints. the fork's command line is not yet tried.
+- **watch out**: the snapmaker u1 uses [snapmaker orca](https://github.com/Snapmaker/OrcaSlicer), snapmaker's open fork (agpl, linux builds). mainline orcaslicer still has open u1 issues around multi-colour prints. the fork's command line is not yet tried.
 - **not this**: slicers that only work by clicking.
 
 ### [klipper](https://www.klipper3d.org) + [moonraker](https://moonraker.readthedocs.io)
