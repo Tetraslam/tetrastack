@@ -14,11 +14,16 @@ the board for precise timing.
 - **not this**: a new chip family per project.
 
 ### rust with [embassy](https://embassy.dev)
-the firmware language and async framework: [esp-hal](https://github.com/esp-rs/esp-hal) on esp32, `embassy-rp` on the pico. one language across both chips.
+the firmware language and async framework: [esp-hal](https://github.com/esp-rs/esp-hal) on esp32, [embassy-rp](https://docs.embassy.dev/embassy-rp) on the pico. one language across both chips.
 - **watch out**: maturity on the esp32-c6 and the pico 2's chip is not confirmed. c with esp-idf is the fallback.
 
 ### [probe-rs](https://probe.rs)
 flashing and debugging from one command line, for both chips.
+
+### [wokwi cli](https://docs.wokwi.com/wokwi-ci/cli-usage)
+runs firmware on a simulated chip, so an agent can test it with no board plugged in.
+- **reach for it when**: firmware tests that should run without hardware.
+- **watch out**: the simulation runs on wokwi's servers and needs an api token. support for each of the three boards above is not yet checked.
 
 ## contextual
 
