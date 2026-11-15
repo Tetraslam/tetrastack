@@ -41,3 +41,4 @@ some shadcn components install these as dependencies. they're fine where a compo
 
 - [recharts](https://recharts.org): charts, through shadcn's chart component.
 - [mapbox-gl](https://docs.mapbox.com/mapbox-gl-js): maps (tetraslamworld travel).
+- [ui sdk](https://ui-sdk.dev): vercel labs' behaviors (popup, selection, typeahead, roving focus, reorder, resize, viewport, virtualizer) for building a component shadcn doesn't have. `@ui-sdk/react` + `@ui-sdk/core`, react 19 or newer, and it ships a skill: `pnpm dlx skills add vercel-labs/ui --skill ui-sdk`. in beta, so apis may still change.
