@@ -8,7 +8,7 @@ capture and decode digital signals from the command line with [`sigrok-cli`](htt
 ### [glasgow](https://glasgow-embedded.org)
 an open bench tool driven from python and the command line, for talking to chips and buses directly.
 - **reach for it when**: probing or driving a digital interface from a script.
-- **watch out**: not bought yet. price and stock are unchecked.
+- **watch out**: it does not replace the logic analyzer. its built-in one was removed from the code pending a rework. $179 at [crowd supply](https://www.crowdsupply.com/1bitsquared/glasgow), in stock as of 2026-11-15. not bought yet.
 
 ### power supply and oscilloscope with [scpi](https://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments)
 any model that takes scpi commands over usb or the network. no models picked yet.

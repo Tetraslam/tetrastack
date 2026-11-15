@@ -20,10 +20,10 @@ the firmware language and async framework: [esp-hal](https://github.com/esp-rs/e
 ### [probe-rs](https://probe.rs)
 flashing and debugging from one command line, for both chips.
 
-### [wokwi cli](https://docs.wokwi.com/wokwi-ci/cli-usage)
-runs firmware on a simulated chip, so an agent can test it with no board plugged in.
-- **reach for it when**: firmware tests that should run without hardware.
-- **watch out**: the simulation runs on wokwi's servers and needs an api token. support for each of the three boards above is not yet checked.
+### [embedded-test](https://github.com/probe-rs/embedded-test)
+firmware tests that run on the real chip. probe-rs flashes them, resets the board between cases and reports results like a normal rust test run. async tests work with embassy.
+- **reach for it when**: any firmware test. the boards stay plugged in, so there is nothing to simulate.
+- **not this**: wokwi. its simulator is closed and runs on their servers (50 free minutes a month, offline use only on the €20 plan).
 
 ## contextual
 
