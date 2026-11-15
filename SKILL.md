@@ -1,6 +1,6 @@
 ---
 name: tetrastack
-description: tetraslam's curated web stack (libraries, taste references, and rejections). Use when starting, scaffolding, or designing any web app, site, frontend, or full-stack project, when choosing a library or dependency for one, or when the user says to use tetrastack. Also use when the user asks to add, record, retire, or reject a library or reference "in tetrastack".
+description: tetraslam's curated web stack (libraries, taste references, and rejections) and hardware stack (CAD, 3D printing, circuit boards, firmware, robotics). Use when starting, scaffolding, or designing any web app, site, frontend, or full-stack project, when starting a hardware, electronics, or 3D-printing project, when choosing a library or dependency for one, or when the user says to use tetrastack. Also use when the user asks to add, record, retire, or reject a library or reference "in tetrastack".
 ---
 
 # tetrastack
@@ -11,6 +11,7 @@ All paths below are relative to this file. If the skill isn't installed locally,
 
 ## Build with it
 
+0. For a physical build (a printed part, a circuit board, firmware, a robot), read `hardware/README.md` and the layers it links instead of `stack/`.
 1. Read `README.md` for the index. Load only the `stack/` layers the project needs. A CLI never needs `stack/motion.md`.
 2. Default to the listed picks. Before adding any dependency that isn't listed, check `rejected.md`. If you still add something unlisted, give a one-line reason in your reply.
 3. Respect `watch out` notes. They come from real incidents and advisories.
@@ -24,7 +25,7 @@ All paths below are relative to this file. If the skill isn't installed locally,
 
 Requests like "add X to tetrastack", "tetrastack reject Y", or "retire Z for W".
 
-1. Find the right file: a `stack/` layer, `taste.md`, `perf.md`, or `rejected.md`. Use the layer's `contextual` section for picks that are only right for some projects.
+1. Find the right file: a `stack/` layer, a `hardware/` layer, `taste.md`, `perf.md`, or `rejected.md`. Use the layer's `contextual` section for picks that are only right for some projects.
 2. Write the entry in the same shape as its neighbors. For a stack pick:
    ```md
    ### [name](url)

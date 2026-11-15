@@ -39,6 +39,10 @@ the skill also handles the other direction. "add torph to tetrastack, it's the r
 
 each entry says what it is, when to reach for it, what to watch out for, and where it shipped.
 
+## hardware
+
+[hardware/](hardware/README.md) is the same idea for physical things: printed parts, circuit boards, firmware and robots. it's a starting list, and nothing in it has shipped yet.
+
 ## taste
 
 [taste.md](taste.md) holds the constants every project keeps (hierarchy first, every state designed, nothing shifts), a dozen directions to choose from (warm paper, live dither, title card, kinetic menu, lens, painterly, hardware specimen, raw text, and more), the bar (three elements from my own work, down to the edge cases), and the references behind it all: pierre, gwern, nous, prime intellect, palladium, oxide, natural, persona 5, evangelion, kyoto animation, and more.
