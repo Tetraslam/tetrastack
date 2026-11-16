@@ -1,6 +1,6 @@
 ---
 name: tetrastack
-description: tetraslam's curated web stack (libraries, taste references, and rejections) and hardware stack (CAD, 3D printing, circuit boards, firmware, robotics). Also holds his writing voice, for copy that should sound like him (docs, readmes, landing pages, interface text). Use when starting, scaffolding, or designing any web app, site, frontend, or full-stack project, when starting a hardware, electronics, or 3D-printing project, when choosing a library or dependency for one, or when the user says to use tetrastack. Also use when the user asks to add, record, retire, or reject a library or reference "in tetrastack".
+description: tetraslam's curated web stack (libraries, taste references, and rejections) and hardware stack (CAD, 3D printing, circuit boards, firmware, robotics). Also holds writing voices for copy (docs, readmes, landing pages, interface text), including his own. Use when starting, scaffolding, or designing any web app, site, frontend, or full-stack project, when starting a hardware, electronics, or 3D-printing project, when choosing a library or dependency for one, or when the user says to use tetrastack. Also use when the user asks to add, record, retire, or reject a library or reference "in tetrastack".
 ---
 
 # tetrastack
@@ -16,7 +16,7 @@ All paths below are relative to this file. If the skill isn't installed locally,
 2. Default to the listed picks. Before adding any dependency that isn't listed, check `rejected.md`. If you still add something unlisted, give a one-line reason in your reply.
 3. Respect `watch out` notes. They come from real incidents and advisories.
 4. For anything visual, read `taste.md`, then write `BRIEF.md` from `brief.md` before any UI code. Pick the direction that suits this product best, from taste.md's list or any style not listed there, then study it from primary sources before designing: open `directions/<slug>.md`, visit and screenshot every source and every site under "on the web", and add your own if the file is thin or still `draft`. Never theme from memory. None is the default; the attractors listed in taste.md need an explicit argument. Derive this project's own palette, accent, and identity, and state how it differs from the closest existing project. Decide autonomously: commit the brief and build from it without waiting for approval. Never use another repo's CSS or tokens as a visual starting point (parc, tetravoice, and the rest); link them only for mechanisms. Hold every screen to the constants and the bar: hierarchy first, every state designed, no layout shift, focus and scroll restored. Open the references the brief names (screenshot them with a browser tool if you have one). Borrow the reasoning behind a reference, never its layout or a move marked **signature**.
-4a. For any copy that should sound like the owner (docs, readmes, landing pages, interface text for his own projects), read `voice.md` first and write to it. Its "failure mode" section matters most.
+4a. For any copy (docs, readmes, landing pages, interface text), read `voice.md`, pick the voice that suits this project from `voices/` or bring a better-suited one, and name it in `BRIEF.md`. Read the chosen voice's file before writing; its "failure mode" section matters most. `voices/discord.md` is the owner's own voice, for things that are personally his.
 5. For anything with data or an agent, follow `perf.md`. Optimize what the user feels: prefetch what's one click away, make the first paint the real page, never flash a skeleton, never shift the layout, and make agent work visible while it happens.
 6. Check the current docs of each pick before writing code (Context7, or the docs inside `node_modules`). Versions move faster than this file.
 7. Before calling the UI done, check the build against `BRIEF.md` point by point and fix any drift.
@@ -26,7 +26,7 @@ All paths below are relative to this file. If the skill isn't installed locally,
 
 Requests like "add X to tetrastack", "tetrastack reject Y", or "retire Z for W".
 
-1. Find the right file: a `stack/` layer, a `hardware/` layer, `taste.md`, `voice.md`, `perf.md`, or `rejected.md`. Use the layer's `contextual` section for picks that are only right for some projects.
+1. Find the right file: a `stack/` layer, a `hardware/` layer, `taste.md`, `voice.md` or a file in `voices/`, `perf.md`, or `rejected.md`. Use the layer's `contextual` section for picks that are only right for some projects.
 2. Write the entry in the same shape as its neighbors. For a stack pick:
    ```md
    ### [name](url)

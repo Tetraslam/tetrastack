@@ -24,6 +24,7 @@ references picked for this product (2 or 3), and the principle taken from each. 
 - shape: radius, borders, density
 - texture and shaders: what lives where, and on which surfaces
 - motion: named curves and durations, and the character of movement
+- voice: which voice from tetrastack's voices/ (or a new one written up the same way), and why it fits
 
 ## hierarchy
 for the main screens: what the reader needs first, second, and what recedes.

@@ -55,7 +55,7 @@ every project picks its own look in a [brief](brief.md) before any ui code, and 
 
 ## voice
 
-[voice.md](voice.md) is how i type, written down so copy can sound like me: first person, lowercase, run-on, honest, with the failure mode (ad copy doing a discord accent) spelled out.
+[voice.md](voice.md): how the words sound, chosen per project like the look is. it holds the rules every voice keeps and a list of voices in [voices/](voices/), each written from real samples. the first one is [discord](voices/discord.md), which is how i type.
 
 ## rejected
 
