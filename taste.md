@@ -18,7 +18,7 @@ these hold in every project, whatever it looks like.
 - **say less.** no subtitle under every item, no status pills that don't change a decision, no metadata the reader didn't come for. extra info goes on hover or on demand.
 - **motion has a purpose.** each project names its own curves and durations and uses them consistently, and reduced motion is respected.
 - **identity fits the product.** a social app, a devtool, and a reading site should not share a look. devtools are dense, calm, and legible.
-- **copy talks like a person.** lowercase and warm, unless the direction calls for another voice.
+- **copy talks like a person.** lowercase and warm, unless the direction calls for another voice. when it should sound like me specifically, follow [voice](voice.md).
 - **type**: inter for ui and commit mono for code and numbers by default. the reading and display faces are chosen in the brief. source serif 4 and shippori mincho b1 are favorites, not obligations.
 
 ## directions
