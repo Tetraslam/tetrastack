@@ -11,6 +11,11 @@ file tree rendering from the same team as diffs. fast and very customizable. pai
 - **reach for it when**: file browsers, artifact trees, agent workspaces.
 - **watch out**: still in beta (1.0.0-beta.6 as of november 2026).
 
+### [@pierre/highlights](https://diffs.com/docs#highlights)
+syntax highlighting from pierre, written in webassembly text: 152 languages, zed-compatible themes, synchronous after import, and it takes chunks and edits as well as whole files. it's what `@pierre/words` highlights code with.
+- **reach for it when**: code that streams or changes while it's on screen, and anything already using words.
+- **watch out**: 0.5.1 and two months old (november 2026). output is bytes that share wasm memory, so decode or copy before the next call.
+
 ### [shiki](https://shiki.style)
 syntax highlighting. keep highlighter state per code block, keyed, and async.
 - **shipped in**: parc

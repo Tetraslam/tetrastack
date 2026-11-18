@@ -38,7 +38,7 @@ benchmarks don't matter. what the user feels does: the thing they wanted is alre
 
 ### ship less up front
 - lazy-load heavy editors and renderers, then preload them when the browser is idle. a stub stands in until then.
-- load streamdown plugins, katex css, and other secondary assets after the page.
+- load markdown plugins (highlighting, mermaid), katex css, and other secondary assets after the page.
 - check the gzipped initial js per route. parc went from ~770KB to ~455KB this way, and profiles from 1.1MB.
 
 ### measure what users feel
