@@ -220,4 +220,4 @@ these are in the stack too. what i notice about them:
 - [dither plugin](https://dither.floriankiem.com/) ([entry](https://tetraslam.world/taste/kh7ftpadt1jrcw6z4m3q1k5shn827e7b)): mono or color, gradient-like falloff, dither over gifs.
 - [dot matrix](https://dotmatrix.zzzzshawn.cloud/) ([entry](https://tetraslam.world/taste/kh7f24n9nf239t9b2cba2hd5c585p39x)): loaders with character.
 - [conway](https://rankdim.github.io/conway/) ([entry](https://tetraslam.world/taste/kh78pbrcynwttnd7skvk67qxjh827qtr)): structure, speed, steady novelty, palette.
-- [vgpu](https://vgpu.sh/), [streamdown](https://streamdown.ai/), [nuqs](https://nuqs.dev/), [tiptap](https://tiptap.dev/), [cmdk](https://github.com/dip/cmdk), [use-stick-to-bottom](https://github.com/stackblitz-labs/use-stick-to-bottom): small tools that each do one job extremely well.
+- [vgpu](https://vgpu.sh/), [words](https://diffs.com/words), [nuqs](https://nuqs.dev/), [tiptap](https://tiptap.dev/), [cmdk](https://github.com/dip/cmdk), [use-stick-to-bottom](https://github.com/stackblitz-labs/use-stick-to-bottom): small tools that each do one job extremely well.

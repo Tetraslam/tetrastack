@@ -16,6 +16,7 @@ used before and replaced. existing projects can keep these. new projects shouldn
 | prisma + postgres | convex | one backend for data, search, files, jobs, and realtime |
 | npm, yarn | pnpm | |
 | newsreader | source serif 4 | preferred the reading texture |
+| streamdown | @pierre/words | much faster, one wasm core for react, server html and the terminal, and math without katex |
 | jetbrains mono | commit mono | quieter, and reads less like an editor screenshot |
 
 ## never

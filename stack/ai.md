@@ -26,11 +26,8 @@ shadcn-style components for chat, tools, reasoning, sources, and prompt input. i
 streaming markdown from pierre computer, written in webassembly text. the pick for streamed llm text in new projects. `<Markdown isAnimating>` from `@pierre/words/react` completes unfinished emphasis, code and links while text arrives, and the same core renders html on the server and ansi for a terminal. math is built in (tex to svg, no katex), code highlighting comes from `@pierre/highlights`, and mermaid from [pele](https://pele.run).
 - **reach for it when**: chat and agent output, or markdown in a cli. the core has no dependencies and the wasm is 96 kb.
 - **watch out**: a week old (0.2.2, november 2026), so pin it and expect the api to move. `renderToHtml()` keeps raw html and `javascript:` links, so sanitize it for anything a user or model wrote; the react component and html sessions drop both (checked). no remark or rehype plugins, and component hooks take and return html strings, not react elements. math is laid out with stix two math metrics, which apple systems ship and others approximate.
-- **not this**: streamdown, for new work. pierre claims 20x faster; i measured the core at 331 MiB/s against markdown-it's 5 on a 185 kb document, and haven't benchmarked streamdown myself.
-
-### [streamdown](https://streamdown.ai)
-markdown rendering that copes with partial streamed text. add the `@streamdown/code`, `math`, `mermaid`, and `cjk` plugins as needed. what the existing projects run. new ones start on `@pierre/words`, and these move when there's a reason to touch them.
-- **shipped in**: parc, tetrachat, tetravoice, kiseki
+- **not this**: streamdown (retired). pierre claims 20x faster; i measured the core at 331 MiB/s against markdown-it's 5 on a 185 kb document, and haven't benchmarked streamdown myself.
+- **shipped in**: nothing yet. parc, tetrachat, tetravoice and kiseki still run streamdown.
 
 ### [opentraces](https://www.opentraces.ai/schema/latest)
 the format for storing agent traces. write the trace from `onStepFinish` so it never slows the response, and store each step as its own convex document.
