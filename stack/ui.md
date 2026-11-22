@@ -33,6 +33,11 @@ drag-to-reorder for lists, bookmarks, and boards.
 chat and log views that follow new content without fighting the user's scroll.
 - **shipped in**: parc, tetrachat, tetravoice
 
+### [hitbox](https://marcelochaman.com/repository/hitbox)
+bigger click and touch targets without moving anything. tailwind utilities that put one `::after` behind a control and stretch it past its edges: `relative hitbox hitbox-2`, per axis (`hitbox-x-2`) or per edge (`hitbox-bottom-2`). css only, 5 kb, no javascript. `pnpm add -D @regular-ppl/hitbox`, then `@import '@regular-ppl/hitbox'` after tailwind.
+- **reach for it when**: icon buttons, checkboxes and anything else smaller than a fingertip, and rows whose hover should fill the padding around them. `hover:hitbox:bg-muted` and `focus-visible:hitbox:ring-2` style the stretched surface, so the highlight and the target are the same shape.
+- **watch out**: published 2026-11-22 at 0.1.0, so pin it. needs tailwind 4.1 and a positioned control. it takes the control's `::after` and sets `isolation: isolate` on it. neighbors' targets can overlap, so give them separate space, and a parent that clips overflow cuts the target off. disabled controls get no extension.
+
 ## comes with shadcn
 
 some shadcn components install these as dependencies. they're fine where a component needs them, but don't choose them on purpose: vaul (drawer), embla (carousel), input-otp, react-day-picker, react-resizable-panels, react-hook-form, date-fns.

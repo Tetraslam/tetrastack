@@ -32,7 +32,7 @@ the skill also handles the other direction. "add torph to tetrastack, it's the r
 | [app](stack/app.md) | next 16 · vite outside next · pnpm · tailwind 4 · biome · zod · nuqs |
 | [backend](stack/backend.md) | convex · convex-helpers rls · better auth · resend + react email · an errors table instead of sentry |
 | [ai](stack/ai.md) | ai sdk + gateway · ai elements · @pierre/words · opentraces with outcomes · firecrawl |
-| [ui](stack/ui.md) | shadcn on base ui · phosphor · cmdk · sonner · tiptap · dnd-kit · use-stick-to-bottom |
+| [ui](stack/ui.md) | shadcn on base ui · phosphor · cmdk · sonner · tiptap · dnd-kit · use-stick-to-bottom · hitbox |
 | [motion](stack/motion.md) | motion · torph · paper shaders · vgpu · dither · dot matrix · conway |
 | [content](stack/content.md) | @pierre/diffs · @pierre/trees · @pierre/highlights · shiki · katex · mermaid · unified |
 | [ship](stack/ship.md) | vitest · convex-test · react doctor · vercel + analytics |
