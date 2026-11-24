@@ -6,12 +6,14 @@ where a part or a board is described, before anything is made.
 mechanical parts written as python. an agent writes the shape as code, and it exports step and stl.
 - **reach for it when**: any printed, cut or machined part.
 - **watch out**: take screws, bearings and gears from [bd_warehouse](https://github.com/gumyr/bd_warehouse) instead of redrawing them.
+- **watch out**: used for real on 2026-11-24 (0.13, python 3.12; it has no build for 3.14). `extrude(Polygon(...))` goes up or down depending on the order of the points, and extruding off a plane can go either way along it. three parts came out below the bed or off-centre that way. place the result by its bounding box, don't assume. `Text` needs `font_path`, or it falls back to whatever font it finds first.
 - **not this**: fusion 360 (closed, cloud, no linux). freecad scripts for new parts.
 
 ### [f3d](https://f3d.app)
 how an agent sees a part. it renders a step or stl file to a png with no window, so the agent can look at what its code made before anything is printed. `pip install f3d`, then `Engine.create(True)`, `scene.add(file)`, `window.render_to_image().save(png)`.
 - **reach for it when**: after every change to a part. render it from a few angles and look.
 - **watch out**: the default camera looks straight down. set the camera for side and angled views.
+- **watch out**: option names changed between 3 and 4 (`render.effect.antialiasing.enable` is gone). set options one at a time and skip the ones that aren't there.
 
 ### [kicad](https://www.kicad.org)
 schematics and boards. the files are text and sit in git, and [`kicad-cli`](https://docs.kicad.org/master/en/cli/cli.html) runs checks and exports fabrication files without the gui.
