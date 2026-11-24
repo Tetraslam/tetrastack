@@ -15,6 +15,6 @@ this is a starting list. unlike the web stack, nothing here has shipped in a pro
 | [robotics](robotics.md) | genesis · motorbridge · pinocchio · rerun · gemini 305 wrist camera · c920s overhead |
 | [bench](bench.md) | sparkfun logic analyzer on sigrok · siglent spd1168x supply · later: siglent sds804x hd scope, nordic ppk2 |
 
-[buy.md](buy.md) has where to order whatever isn't bought yet, grouped by store.
+[buy.md](buy.md) has where to order whatever isn't bought yet, grouped by store. [projects.md](projects.md) is the list of builds talked through so far.
 
 [rejected.md](rejected.md) lists what was considered and turned down, with the reason.
