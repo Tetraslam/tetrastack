@@ -76,6 +76,17 @@ first three: 1, 2 and 4.
 
 the idea underneath all of it: the agent is the brain and the programmer. it doesn't sit in the fast loop, it writes the fast loop as a small control routine that runs on the arm.
 
+## the arm as a camera operator
+
+he hates filming, and an arm doesn't. once it holds a camera it can make the [clips](https://github.com/tetraslam/desk) of physical things.
+
+- **first tool for the tool changer: a printed phone clamp.** the arm carries 2.5 kg, and a phone shoots 4k at 60 frames a second.
+- repeatable moves: the same slow orbit every time, so generation 1 and generation 40 can sit side by side from one angle
+- timelapses where the camera drifts around a print as it grows
+- physical subjects: a game on the real chromatic, the printer swapping toolheads, the arm working
+- filming the overnight loop with nobody there
+- **watch out**: the two cameras in [robotics](robotics.md) are for the robot to see with. the c920s is 1080p at 30 frames a second, which is usable but under the 60 the clips aim for, and the gemini is a depth camera. they stay as the robot's eyes.
+
 ## elsewhere
 
 - a printer item for the bar that only shows while a print is running (an omarchy plugin, once the u1 is set up)
