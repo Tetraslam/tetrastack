@@ -4,6 +4,8 @@ hardware builds talked through on 2026-11-13 and 14, written down so they stop g
 
 ## the big one
 
+started 2026-11-24 as `cambrian` in [athanor](https://github.com/tetraslam/athanor), the workshop repo. generation one is six gliders, launched and measured by hand until the arm exists.
+
 **an agent that evolves physical objects overnight.** it designs a part, prints it, the part gets moved to a test rig, a camera measures how it did, and the agent designs the next one. things with no assembly and one number to beat: a glider that flies farthest, a top that spins longest, a legged shape that walks down a ramp with no motor. you wake up to forty generations on the floor and a family tree of designs.
 - **watch out**: print time caps a night at maybe 10 to 30 designs. and something has to clear the bed between prints, which is what the arm is for.
 
