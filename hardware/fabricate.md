@@ -5,6 +5,8 @@ turning a design into an object, at home or by order.
 ### [orcaslicer](https://github.com/OrcaSlicer/OrcaSlicer)
 the slicer, run from the command line.
 - **watch out**: the snapmaker u1 uses [snapmaker orca](https://github.com/Snapmaker/OrcaSlicer), snapmaker's open fork (agpl, linux builds). mainline orcaslicer still has open u1 issues around multi-colour prints. the fork's command line is not yet tried.
+- **watch out**: slicing from a script, tried on 2026-11-25 (snapmaker orca 2.4.1 flatpak, in [athanor's slice.py](https://github.com/tetraslam/athanor/blob/master/lib/athanor/slice.py)). it works, and a 250 mm part slices in two seconds. four things it took to get there: the command line wants each profile as one whole file, so the `inherits` chains have to be flattened first. the key `wipe_tower_filament` in the u1's process profile crashes it outright (segfault, no message), so drop it. set `curr_bed_type` to `Textured PEI Plate`, or it assumes a cool plate and heats the bed to 35 instead of 65. and the flatpak can't see `/tmp`, only the home folder.
+- **watch out**: the u1 answers on the network out of the box (2026-11-25, stock firmware 2.1.2): it announces itself as `_snapmaker._tcp`, and moonraker on port 7125 answers status queries with no login. uploading and starting a job that way is not tried yet.
 - **not this**: slicers that only work by clicking.
 
 ### [klipper](https://www.klipper3d.org) + [moonraker](https://moonraker.readthedocs.io)
