@@ -2,9 +2,13 @@
 
 components and interaction primitives.
 
+### [ui sdk](https://ui-sdk.dev)
+vercel labs' library of headless interaction behaviors (popup, selection, typeahead, roving focus, reorder, resize, viewport, virtualizer, 50+ total) that compose into any component, with first-class WebMCP support so agents can read and drive the page directly. go straight here when building interfaces: working from behaviors instead of pre-baked widgets forces complete control and deliberate interaction design. unstyled, so style with tailwind tokens. `@ui-sdk/react` + `@ui-sdk/core` (react 19+, also works outside react), and it ships a skill: `pnpm dlx skills add vercel-labs/ui --skill ui-sdk`.
+- **watch out**: in beta (`0.1.0-beta.*`), so apis may still move.
+
 ### [shadcn/ui](https://ui.shadcn.com) on [base ui](https://base-ui.com)
-the component base. `pnpm dlx shadcn init` uses base ui by default. components are installed source, so theme them heavily and break them into small reusable parts instead of styling inline.
-- **watch out**: always use a shadcn component when one exists. never hand-roll raw html for a dialog, menu, or select.
+the stock component base when you want a standard finished primitive fast instead of composing from behaviors. `pnpm dlx shadcn init` uses base ui by default. components are installed source, so theme them heavily and break them into small reusable parts instead of styling inline.
+- **watch out**: never hand-roll raw html for a dialog, menu, or select — use ui sdk or shadcn.
 - **not this**: radix for new projects. existing radix apps (parc, tetravoice) stay as they are. migrate with `pnpm dlx skills add shadcn/ui`, one component at a time.
 - **shipped in**: everything
 
@@ -47,4 +51,3 @@ some shadcn components install these as dependencies. they're fine where a compo
 
 - [recharts](https://recharts.org): charts, through shadcn's chart component.
 - [mapbox-gl](https://docs.mapbox.com/mapbox-gl-js): maps (tetraslamworld travel).
-- [ui sdk](https://ui-sdk.dev): vercel labs' behaviors (popup, selection, typeahead, roving focus, reorder, resize, viewport, virtualizer) for building a component shadcn doesn't have. its parts are unstyled, so style them with the same tailwind tokens as the shadcn components around them. `@ui-sdk/react` + `@ui-sdk/core`, react 19 or newer, and it ships a skill: `pnpm dlx skills add vercel-labs/ui --skill ui-sdk`. in beta, so apis may still change. where it sits: base ui gives finished headless components (a select) and stays the layer under shadcn. ui sdk goes one level down, to the pieces a select is made of, so it doesn't replace base ui and isn't built on it. reach for it only when neither shadcn nor base ui has the component.
