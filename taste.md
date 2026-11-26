@@ -103,6 +103,9 @@ press `n` anywhere:
 - hope, grandeur, and restraint all at once.
 - the design treats the content as something serious.
 
+### [back to basics](https://gobacktobasics.com) · [behind the scenes](https://gobacktobasics.com/bts)
+a design course that isn't out yet, and its site is the lesson. one idea, subtraction, carried through every choice: primary colours, geometric shapes, helvetica, almost no motion, and the same three words sitting in the same place in every quote. it lists its refusals out loud ("i will not cause layout shift", "i will not use progressive blur", "i will not make glass liquid"). take the method: pick the one idea, then let it decide the font, the colour and what gets left out.
+
 ### [stripe press](https://press.stripe.com)
 - books treated as objects worth revering, with the same mix of grandeur and restraint as palladium.
 - take that reverence and leave the density. too much is going on at once.

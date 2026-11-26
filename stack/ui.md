@@ -10,6 +10,7 @@ the component base. `pnpm dlx shadcn init` uses base ui by default. components a
 
 ### [phosphor](https://phosphoricons.com)
 the icon set. six weights (thin to bold, plus fill and duotone), so icons can match the weight of nearby text, and fill can mark the active state. set `iconLibrary` to `phosphor` in `components.json`, or run `pnpm dlx shadcn migrate icons --from lucide --to phosphor`.
+- **reach past it when**: the product needs an icon phosphor doesn't have ("streak", "invoice sent"), or a look of its own. [draw-icons](https://skills.ronykax.com/draw-icons) is a skill that has the agent draw the whole set as plain svgs from a few rules, so corners, stroke and size match, and checks each at the sizes it ships at. `npx skills add ronykax/skills --skill draw-icons`. bookmarked, not yet tried here.
 - **not this**: lucide for new projects.
 - **shipped in**: fashion, tetrapod
 
@@ -46,4 +47,4 @@ some shadcn components install these as dependencies. they're fine where a compo
 
 - [recharts](https://recharts.org): charts, through shadcn's chart component.
 - [mapbox-gl](https://docs.mapbox.com/mapbox-gl-js): maps (tetraslamworld travel).
-- [ui sdk](https://ui-sdk.dev): vercel labs' behaviors (popup, selection, typeahead, roving focus, reorder, resize, viewport, virtualizer) for building a component shadcn doesn't have. its parts are unstyled, so style them with the same tailwind tokens as the shadcn components around them. `@ui-sdk/react` + `@ui-sdk/core`, react 19 or newer, and it ships a skill: `pnpm dlx skills add vercel-labs/ui --skill ui-sdk`. in beta, so apis may still change.
+- [ui sdk](https://ui-sdk.dev): vercel labs' behaviors (popup, selection, typeahead, roving focus, reorder, resize, viewport, virtualizer) for building a component shadcn doesn't have. its parts are unstyled, so style them with the same tailwind tokens as the shadcn components around them. `@ui-sdk/react` + `@ui-sdk/core`, react 19 or newer, and it ships a skill: `pnpm dlx skills add vercel-labs/ui --skill ui-sdk`. in beta, so apis may still change. where it sits: base ui gives finished headless components (a select) and stays the layer under shadcn. ui sdk goes one level down, to the pieces a select is made of, so it doesn't replace base ui and isn't built on it. reach for it only when neither shadcn nor base ui has the component.
